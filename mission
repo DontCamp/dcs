@@ -9,7 +9,7 @@ mission =
         ["Year"] = 2011,
         ["Month"] = 6,
     }, -- end of ["date"]
-    ["maxDictId"] = 658,
+    ["maxDictId"] = 674,
     ["trig"] = 
     {
         ["actions"] = 
@@ -212,9 +212,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = 704916.97285714,
-        ["zoom"] = 547063,
-        ["centerX"] = -279081.88014286,
+        ["centerY"] = 565610.93914286,
+        ["zoom"] = 105048,
+        ["centerX"] = -222003.39257143,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -471,6 +471,134 @@ mission =
                                 ["start_time"] = 0,
                                 ["frequency"] = 127.5,
                             }, -- end of [1]
+                            [2] = 
+                            {
+                                ["modulation"] = 0,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAP",
+                                ["uncontrolled"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2000,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 138.88888888889,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAP",
+                                                            ["id"] = "EngageTargets",
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 561048.85457143,
+                                            ["x"] = -218296.69885714,
+                                            ["name"] = "DictKey_WptName_671",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 181,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 2000,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Air Force Standard",
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "Su-27",
+                                        ["unitId"] = 263,
+                                        ["psi"] = 0,
+                                        ["y"] = 561048.85457143,
+                                        ["x"] = -218296.69885714,
+                                        ["name"] = "DictKey_UnitName_670",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82F}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
+                                                }, -- end of [3]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{E8069896-8435-4B90-95C0-01A03AE6E400}",
+                                                }, -- end of [6]
+                                                [8] = 
+                                                {
+                                                    ["CLSID"] = "{B79C379A-9E87-4E50-A1EE-7F7E29C2E87A}",
+                                                }, -- end of [8]
+                                                [10] = 
+                                                {
+                                                    ["CLSID"] = "{44EE8698-89F9-48EE-AF36-5FD31896A82A}",
+                                                }, -- end of [10]
+                                                [9] = 
+                                                {
+                                                    ["CLSID"] = "{FBC29BFE-3D24-4C64-B81D-941239D12249}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 9400,
+                                            ["flare"] = 96,
+                                            ["chaff"] = 96,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 101,
+                                        ["onboard_num"] = "011",
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 561048.85457143,
+                                ["x"] = -218296.69885714,
+                                ["name"] = "DictKey_GroupName_669",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["frequency"] = 127.5,
+                            }, -- end of [2]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                 }, -- end of [1]
@@ -1787,6 +1915,150 @@ mission =
                                 ["start_time"] = 0,
                                 ["frequency"] = 251,
                             }, -- end of [8]
+                            [9] = 
+                            {
+                                ["modulation"] = 0,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAS",
+                                ["uncontrolled"] = false,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2000,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt_type"] = "BARO",
+                                            ["properties"] = 
+                                            {
+                                                ["vnav"] = 1,
+                                                ["scale"] = 0,
+                                                ["vangle"] = 0,
+                                                ["angle"] = 0,
+                                                ["steer"] = 2,
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["key"] = "CAS",
+                                                            ["id"] = "EngageTargets",
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Helicopters",
+                                                                    [2] = "Ground Units",
+                                                                    [3] = "Light armed ships",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 560238.48428572,
+                                            ["x"] = -217966.548,
+                                            ["name"] = "DictKey_WptName_674",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 182,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 2000,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "104th FS Maryland ANG, Baltimore (MD)",
+                                        ["skill"] = "Client",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "A-10C",
+                                        ["unitId"] = 264,
+                                        ["psi"] = 0,
+                                        ["y"] = 560238.48428572,
+                                        ["x"] = -217966.548,
+                                        ["name"] = "DictKey_UnitName_673",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "ALQ_184",
+                                                }, -- end of [1]
+                                                [10] = 
+                                                {
+                                                    ["CLSID"] = "{A111396E-D3E8-4b9c-8AC9-2432489304D5}",
+                                                }, -- end of [10]
+                                                [11] = 
+                                                {
+                                                    ["CLSID"] = "{DB434044-F5D0-4F1F-9BA9-B73027E18DD3}",
+                                                }, -- end of [11]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 5029,
+                                            ["flare"] = 120,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 240,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 
+                                        {
+                                            [1] = 1,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Enfield11",
+                                        }, -- end of ["callsign"]
+                                        ["onboard_num"] = "054",
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 560238.48428572,
+                                ["x"] = -217966.548,
+                                ["name"] = "DictKey_GroupName_672",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["frequency"] = 251,
+                            }, -- end of [9]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                 }, -- end of [2]
@@ -4315,422 +4587,6 @@ mission =
                         {
                             [1] = 
                             {
-                                ["modulation"] = 0,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["auto"] = false,
-                                        ["id"] = "EngageTargets",
-                                        ["key"] = "CAP",
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["targetTypes"] = 
-                                            {
-                                                [1] = "Air",
-                                            }, -- end of ["targetTypes"]
-                                            ["priority"] = 0,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["number"] = 2,
-                                        ["auto"] = false,
-                                        ["id"] = "Orbit",
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["altitude"] = 3048,
-                                            ["pattern"] = "Race-Track",
-                                            ["speed"] = 138.88888888889,
-                                        }, -- end of ["params"]
-                                    }, -- end of [2]
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
-                                ["task"] = "CAP",
-                                ["uncontrolled"] = false,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 14,
-                                            ["action"] = "From Parking Area",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 138.88888888889,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["key"] = "CAP",
-                                                            ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
-                                                            ["auto"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["targetTypes"] = 
-                                                                {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                                ["priority"] = 0,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 646855.125,
-                                            ["x"] = -281191.5625,
-                                            ["name"] = "DictKey_WptName_597",
-                                            ["formation_template"] = "",
-                                            ["airdromeId"] = 23,
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 168,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 14,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["parking"] = "121",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 239,
-                                        ["psi"] = 0,
-                                        ["parking_id"] = "19",
-                                        ["x"] = -281191.5625,
-                                        ["name"] = "DictKey_UnitName_595",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["y"] = 646855.125,
-                                        ["heading"] = 0,
-                                        ["callsign"] = 100,
-                                        ["onboard_num"] = "010",
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["alt"] = 14,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "Good",
-                                        ["parking"] = "90",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 240,
-                                        ["psi"] = 0,
-                                        ["parking_id"] = "24",
-                                        ["x"] = -281239.40625,
-                                        ["name"] = "DictKey_UnitName_596",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["y"] = 646910.5625,
-                                        ["heading"] = 0,
-                                        ["callsign"] = 101,
-                                        ["onboard_num"] = "011",
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["y"] = 646855.125,
-                                ["x"] = -281191.5625,
-                                ["name"] = "DictKey_GroupName_594",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["frequency"] = 124,
-                            }, -- end of [1]
-                            [2] = 
-                            {
-                                ["modulation"] = 0,
-                                ["tasks"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["number"] = 1,
-                                        ["auto"] = false,
-                                        ["id"] = "EngageTargets",
-                                        ["key"] = "CAP",
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["targetTypes"] = 
-                                            {
-                                                [1] = "Air",
-                                            }, -- end of ["targetTypes"]
-                                            ["priority"] = 0,
-                                        }, -- end of ["params"]
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["number"] = 2,
-                                        ["auto"] = false,
-                                        ["id"] = "Orbit",
-                                        ["enabled"] = true,
-                                        ["params"] = 
-                                        {
-                                            ["altitude"] = 3048,
-                                            ["pattern"] = "Race-Track",
-                                            ["speed"] = 138.88888888889,
-                                        }, -- end of ["params"]
-                                    }, -- end of [2]
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
-                                ["task"] = "CAP",
-                                ["uncontrolled"] = false,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 13,
-                                            ["action"] = "From Parking Area",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 138.88888888889,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["key"] = "CAP",
-                                                            ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
-                                                            ["auto"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["targetTypes"] = 
-                                                                {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                                ["priority"] = 0,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "TakeOffParking",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 648105.9375,
-                                            ["x"] = -281415.78125,
-                                            ["name"] = "DictKey_WptName_601",
-                                            ["formation_template"] = "",
-                                            ["airdromeId"] = 23,
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 169,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 13,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["parking"] = "123",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 241,
-                                        ["psi"] = 0,
-                                        ["parking_id"] = "63",
-                                        ["x"] = -281415.78125,
-                                        ["name"] = "DictKey_UnitName_599",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["y"] = 648105.9375,
-                                        ["heading"] = 0,
-                                        ["callsign"] = 100,
-                                        ["onboard_num"] = "010",
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["alt"] = 13,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "Good",
-                                        ["parking"] = "124",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 242,
-                                        ["psi"] = 0,
-                                        ["parking_id"] = "62",
-                                        ["x"] = -281521.46875,
-                                        ["name"] = "DictKey_UnitName_600",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["y"] = 648100.875,
-                                        ["heading"] = 0,
-                                        ["callsign"] = 101,
-                                        ["onboard_num"] = "011",
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["y"] = 648105.9375,
-                                ["x"] = -281415.78125,
-                                ["name"] = "DictKey_GroupName_598",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["frequency"] = 124,
-                            }, -- end of [2]
-                            [3] = 
-                            {
                                 ["lateActivation"] = false,
                                 ["tasks"] = 
                                 {
@@ -4780,7 +4636,7 @@ mission =
                                                             ["number"] = 2,
                                                             ["params"] = 
                                                             {
-                                                                ["altitude"] = 3048,
+                                                                ["altitude"] = 1524,
                                                                 ["pattern"] = "Circle",
                                                                 ["speed"] = 179.86111111111,
                                                                 ["speedEdited"] = true,
@@ -4792,8 +4648,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 616104.09542857,
-                                            ["x"] = -252325.808,
+                                            ["y"] = 603147.68742857,
+                                            ["x"] = -252790.09657143,
                                             ["name"] = "DictKey_WptName_607",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -4815,8 +4671,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 243,
                                         ["psi"] = 0,
-                                        ["y"] = 616104.09542857,
-                                        ["x"] = -252325.808,
+                                        ["y"] = 603147.68742857,
+                                        ["x"] = -252790.09657143,
                                         ["name"] = "DictKey_UnitName_605",
                                         ["payload"] = 
                                         {
@@ -4867,8 +4723,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 245,
                                         ["psi"] = 0,
-                                        ["y"] = 616144.09542857,
-                                        ["x"] = -252365.808,
+                                        ["y"] = 603187.68742857,
+                                        ["x"] = -252830.09657143,
                                         ["name"] = "DictKey_UnitName_617",
                                         ["payload"] = 
                                         {
@@ -4886,15 +4742,15 @@ mission =
                                         ["onboard_num"] = "013",
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["y"] = 616104.09542857,
-                                ["x"] = -252325.808,
+                                ["y"] = 603147.68742857,
+                                ["x"] = -252790.09657143,
                                 ["name"] = "DictKey_GroupName_604",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["modulation"] = 0,
                                 ["frequency"] = 124,
-                            }, -- end of [3]
-                            [4] = 
+                            }, -- end of [1]
+                            [2] = 
                             {
                                 ["lateActivation"] = false,
                                 ["tasks"] = 
@@ -4957,8 +4813,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 665979.64742857,
-                                            ["x"] = -246784.08,
+                                            ["y"] = 640078.704,
+                                            ["x"] = -233851.11371429,
                                             ["name"] = "DictKey_WptName_628",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -4980,8 +4836,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 246,
                                         ["psi"] = 0,
-                                        ["y"] = 665979.64742857,
-                                        ["x"] = -246784.08,
+                                        ["y"] = 640078.704,
+                                        ["x"] = -233851.11371429,
                                         ["name"] = "DictKey_UnitName_626",
                                         ["payload"] = 
                                         {
@@ -5032,8 +4888,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 247,
                                         ["psi"] = 0,
-                                        ["y"] = 666019.64742857,
-                                        ["x"] = -246824.08,
+                                        ["y"] = 640118.704,
+                                        ["x"] = -233891.11371429,
                                         ["name"] = "DictKey_UnitName_627",
                                         ["payload"] = 
                                         {
@@ -5051,15 +4907,15 @@ mission =
                                         ["onboard_num"] = "013",
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["y"] = 665979.64742857,
-                                ["x"] = -246784.08,
+                                ["y"] = 640078.704,
+                                ["x"] = -233851.11371429,
                                 ["name"] = "DictKey_GroupName_625",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["modulation"] = 0,
                                 ["frequency"] = 124,
-                            }, -- end of [4]
-                            [5] = 
+                            }, -- end of [2]
+                            [3] = 
                             {
                                 ["lateActivation"] = false,
                                 ["tasks"] = 
@@ -5113,7 +4969,7 @@ mission =
                                                                 ["speedEdited"] = true,
                                                                 ["pattern"] = "Circle",
                                                                 ["speed"] = 179.86111111111,
-                                                                ["altitude"] = 3048,
+                                                                ["altitude"] = 4572,
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                     }, -- end of ["tasks"]
@@ -5122,8 +4978,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 662219.18914285,
-                                            ["x"] = -326149.54171428,
+                                            ["y"] = 658702.03714285,
+                                            ["x"] = -337226.39514286,
                                             ["name"] = "DictKey_WptName_632",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -5145,8 +5001,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 248,
                                         ["psi"] = 0,
-                                        ["y"] = 662219.18914285,
-                                        ["x"] = -326149.54171428,
+                                        ["y"] = 658702.03714285,
+                                        ["x"] = -337226.39514286,
                                         ["name"] = "DictKey_UnitName_630",
                                         ["payload"] = 
                                         {
@@ -5197,8 +5053,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 249,
                                         ["psi"] = 0,
-                                        ["y"] = 662259.18914285,
-                                        ["x"] = -326189.54171428,
+                                        ["y"] = 658742.03714285,
+                                        ["x"] = -337266.39514286,
                                         ["name"] = "DictKey_UnitName_631",
                                         ["payload"] = 
                                         {
@@ -5216,15 +5072,15 @@ mission =
                                         ["onboard_num"] = "013",
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["y"] = 662219.18914285,
-                                ["x"] = -326149.54171428,
+                                ["y"] = 658702.03714285,
+                                ["x"] = -337226.39514286,
                                 ["name"] = "DictKey_GroupName_629",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["modulation"] = 0,
                                 ["frequency"] = 124,
-                            }, -- end of [5]
-                            [6] = 
+                            }, -- end of [3]
+                            [4] = 
                             {
                                 ["lateActivation"] = false,
                                 ["tasks"] = 
@@ -5240,7 +5096,7 @@ mission =
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 2145,
+                                            ["alt"] = 6096,
                                             ["action"] = "Fly Over Point",
                                             ["alt_type"] = "BARO",
                                             ["speed"] = 179.86111111111,
@@ -5287,32 +5143,32 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 598161.536,
-                                            ["x"] = -331990.68742857,
-                                            ["name"] = "DictKey_WptName_636",
+                                            ["y"] = 636289.54114285,
+                                            ["x"] = -296001.42114286,
+                                            ["name"] = "DictKey_WptName_640",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
                                         }, -- end of [1]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
-                                ["groupId"] = 174,
+                                ["groupId"] = 175,
                                 ["hidden"] = false,
                                 ["units"] = 
                                 {
                                     [1] = 
                                     {
-                                        ["alt"] = 2145,
+                                        ["alt"] = 6096,
                                         ["hardpoint_racks"] = true,
                                         ["alt_type"] = "BARO",
                                         ["livery_id"] = "Bare Metal",
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 250,
+                                        ["unitId"] = 252,
                                         ["psi"] = 0,
-                                        ["y"] = 598161.536,
-                                        ["x"] = -331990.68742857,
-                                        ["name"] = "DictKey_UnitName_634",
+                                        ["y"] = 636289.54114285,
+                                        ["x"] = -296001.42114286,
+                                        ["name"] = "DictKey_UnitName_638",
                                         ["payload"] = 
                                         {
                                             ["pylons"] = 
@@ -5354,17 +5210,17 @@ mission =
                                     }, -- end of [1]
                                     [2] = 
                                     {
-                                        ["alt"] = 2145,
+                                        ["alt"] = 6096,
                                         ["alt_type"] = "BARO",
                                         ["livery_id"] = "Bare Metal",
                                         ["skill"] = "High",
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 251,
+                                        ["unitId"] = 253,
                                         ["psi"] = 0,
-                                        ["y"] = 598201.536,
-                                        ["x"] = -332030.68742857,
-                                        ["name"] = "DictKey_UnitName_635",
+                                        ["y"] = 636329.54114285,
+                                        ["x"] = -296041.42114286,
+                                        ["name"] = "DictKey_UnitName_639",
                                         ["payload"] = 
                                         {
                                             ["pylons"] = 
@@ -5381,9 +5237,339 @@ mission =
                                         ["onboard_num"] = "013",
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["y"] = 598161.536,
-                                ["x"] = -331990.68742857,
-                                ["name"] = "DictKey_GroupName_633",
+                                ["y"] = 636289.54114285,
+                                ["x"] = -296001.42114286,
+                                ["name"] = "DictKey_GroupName_637",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["modulation"] = 0,
+                                ["frequency"] = 124,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["lateActivation"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAP",
+                                ["uncontrolled"] = false,
+                                ["route"] = 
+                                {
+                                    ["routeRelativeTOT"] = false,
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 6096,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 179.86111111111,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAP",
+                                                            ["id"] = "EngageTargets",
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 2,
+                                                            ["params"] = 
+                                                            {
+                                                                ["speedEdited"] = true,
+                                                                ["pattern"] = "Circle",
+                                                                ["speed"] = 179.86111111111,
+                                                                ["altitude"] = 6096,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 610407.63085714,
+                                            ["x"] = -207020.888,
+                                            ["name"] = "DictKey_WptName_644",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 176,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 6096,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["speed"] = 179.86111111111,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 254,
+                                        ["psi"] = 0,
+                                        ["y"] = 610407.63085714,
+                                        ["x"] = -207020.888,
+                                        ["name"] = "DictKey_UnitName_642",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 100,
+                                        ["onboard_num"] = "010",
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["alt"] = 6096,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["speed"] = 179.86111111111,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 255,
+                                        ["psi"] = 0,
+                                        ["y"] = 610447.63085714,
+                                        ["x"] = -207060.888,
+                                        ["name"] = "DictKey_UnitName_643",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 103,
+                                        ["onboard_num"] = "013",
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 610407.63085714,
+                                ["x"] = -207020.888,
+                                ["name"] = "DictKey_GroupName_641",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["modulation"] = 0,
+                                ["frequency"] = 124,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["lateActivation"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAP",
+                                ["uncontrolled"] = false,
+                                ["route"] = 
+                                {
+                                    ["routeRelativeTOT"] = false,
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 3048,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 179.86111111111,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAP",
+                                                            ["id"] = "EngageTargets",
+                                                            ["enabled"] = true,
+                                                            ["auto"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 2,
+                                                            ["params"] = 
+                                                            {
+                                                                ["altitude"] = 3048,
+                                                                ["pattern"] = "Circle",
+                                                                ["speed"] = 179.86111111111,
+                                                                ["speedEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 615289.66714285,
+                                            ["x"] = -345696.77514286,
+                                            ["name"] = "DictKey_WptName_648",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 177,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 3048,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["speed"] = 179.86111111111,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 256,
+                                        ["psi"] = 0,
+                                        ["y"] = 615289.66714285,
+                                        ["x"] = -345696.77514286,
+                                        ["name"] = "DictKey_UnitName_646",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 100,
+                                        ["onboard_num"] = "010",
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["speed"] = 179.86111111111,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 257,
+                                        ["psi"] = 0,
+                                        ["y"] = 615329.66714285,
+                                        ["x"] = -345736.77514286,
+                                        ["name"] = "DictKey_UnitName_647",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 103,
+                                        ["onboard_num"] = "013",
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 615289.66714285,
+                                ["x"] = -345696.77514286,
+                                ["name"] = "DictKey_GroupName_645",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["modulation"] = 0,
@@ -5452,503 +5638,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 652810.65314287,
-                                            ["x"] = -296266.26628571,
-                                            ["name"] = "DictKey_WptName_640",
-                                            ["formation_template"] = "",
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 175,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 6096,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 252,
-                                        ["psi"] = 0,
-                                        ["y"] = 652810.65314287,
-                                        ["x"] = -296266.26628571,
-                                        ["name"] = "DictKey_UnitName_638",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 100,
-                                        ["onboard_num"] = "010",
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["alt"] = 6096,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 253,
-                                        ["psi"] = 0,
-                                        ["y"] = 652850.65314287,
-                                        ["x"] = -296306.26628571,
-                                        ["name"] = "DictKey_UnitName_639",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 103,
-                                        ["onboard_num"] = "013",
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["y"] = 652810.65314287,
-                                ["x"] = -296266.26628571,
-                                ["name"] = "DictKey_GroupName_637",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["modulation"] = 0,
-                                ["frequency"] = 124,
-                            }, -- end of [7]
-                            [8] = 
-                            {
-                                ["lateActivation"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
-                                ["task"] = "CAP",
-                                ["uncontrolled"] = false,
-                                ["route"] = 
-                                {
-                                    ["routeRelativeTOT"] = false,
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 6096,
-                                            ["action"] = "Fly Over Point",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 179.86111111111,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["key"] = "CAP",
-                                                            ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
-                                                            ["auto"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["targetTypes"] = 
-                                                                {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                                ["priority"] = 0,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "Orbit",
-                                                            ["number"] = 2,
-                                                            ["params"] = 
-                                                            {
-                                                                ["speedEdited"] = true,
-                                                                ["pattern"] = "Circle",
-                                                                ["speed"] = 179.86111111111,
-                                                                ["altitude"] = 3048,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 636291.81885714,
-                                            ["x"] = -208387.82171428,
-                                            ["name"] = "DictKey_WptName_644",
-                                            ["formation_template"] = "",
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 176,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 6096,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 254,
-                                        ["psi"] = 0,
-                                        ["y"] = 636291.81885714,
-                                        ["x"] = -208387.82171428,
-                                        ["name"] = "DictKey_UnitName_642",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 100,
-                                        ["onboard_num"] = "010",
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["alt"] = 6096,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 255,
-                                        ["psi"] = 0,
-                                        ["y"] = 636331.81885714,
-                                        ["x"] = -208427.82171428,
-                                        ["name"] = "DictKey_UnitName_643",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 103,
-                                        ["onboard_num"] = "013",
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["y"] = 636291.81885714,
-                                ["x"] = -208387.82171428,
-                                ["name"] = "DictKey_GroupName_641",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["modulation"] = 0,
-                                ["frequency"] = 124,
-                            }, -- end of [8]
-                            [9] = 
-                            {
-                                ["lateActivation"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
-                                ["task"] = "CAP",
-                                ["uncontrolled"] = false,
-                                ["route"] = 
-                                {
-                                    ["routeRelativeTOT"] = false,
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 3048,
-                                            ["action"] = "Fly Over Point",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 179.86111111111,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["key"] = "CAP",
-                                                            ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
-                                                            ["auto"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["targetTypes"] = 
-                                                                {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                                ["priority"] = 0,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "Orbit",
-                                                            ["number"] = 2,
-                                                            ["params"] = 
-                                                            {
-                                                                ["altitude"] = 3048,
-                                                                ["pattern"] = "Circle",
-                                                                ["speed"] = 179.86111111111,
-                                                                ["speedEdited"] = true,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 639260.60171428,
-                                            ["x"] = -363556.20571428,
-                                            ["name"] = "DictKey_WptName_648",
-                                            ["formation_template"] = "",
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 177,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 3048,
-                                        ["hardpoint_racks"] = true,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 256,
-                                        ["psi"] = 0,
-                                        ["y"] = 639260.60171428,
-                                        ["x"] = -363556.20571428,
-                                        ["name"] = "DictKey_UnitName_646",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                                [1] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [1]
-                                                [2] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [2]
-                                                [3] = 
-                                                {
-                                                    ["CLSID"] = "{PTB_800_MIG21}",
-                                                }, -- end of [3]
-                                                [4] = 
-                                                {
-                                                    ["CLSID"] = "{R-3R}",
-                                                }, -- end of [4]
-                                                [5] = 
-                                                {
-                                                    ["CLSID"] = "{R-3S}",
-                                                }, -- end of [5]
-                                                [6] = 
-                                                {
-                                                    ["CLSID"] = "{ASO-2}",
-                                                }, -- end of [6]
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 100,
-                                        ["onboard_num"] = "010",
-                                    }, -- end of [1]
-                                    [2] = 
-                                    {
-                                        ["alt"] = 3048,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "Bare Metal",
-                                        ["skill"] = "High",
-                                        ["speed"] = 179.86111111111,
-                                        ["type"] = "MiG-21Bis",
-                                        ["unitId"] = 257,
-                                        ["psi"] = 0,
-                                        ["y"] = 639300.60171428,
-                                        ["x"] = -363596.20571428,
-                                        ["name"] = "DictKey_UnitName_647",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = 2280,
-                                            ["flare"] = 40,
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 18,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 103,
-                                        ["onboard_num"] = "013",
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["y"] = 639260.60171428,
-                                ["x"] = -363556.20571428,
-                                ["name"] = "DictKey_GroupName_645",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["modulation"] = 0,
-                                ["frequency"] = 124,
-                            }, -- end of [9]
-                            [10] = 
-                            {
-                                ["lateActivation"] = false,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
-                                ["task"] = "CAP",
-                                ["uncontrolled"] = false,
-                                ["route"] = 
-                                {
-                                    ["routeRelativeTOT"] = false,
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 6096,
-                                            ["action"] = "Fly Over Point",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 179.86111111111,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["key"] = "CAP",
-                                                            ["id"] = "EngageTargets",
-                                                            ["enabled"] = true,
-                                                            ["auto"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["targetTypes"] = 
-                                                                {
-                                                                    [1] = "Air",
-                                                                }, -- end of ["targetTypes"]
-                                                                ["priority"] = 0,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "Orbit",
-                                                            ["number"] = 2,
-                                                            ["params"] = 
-                                                            {
-                                                                ["altitude"] = 3048,
-                                                                ["pattern"] = "Circle",
-                                                                ["speed"] = 179.86111111111,
-                                                                ["speedEdited"] = true,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 698240.42114285,
-                                            ["x"] = -365337.47542857,
+                                            ["y"] = 697965.19,
+                                            ["x"] = -366292.97171429,
                                             ["name"] = "DictKey_WptName_652",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -5970,8 +5661,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 258,
                                         ["psi"] = 0,
-                                        ["y"] = 698240.42114285,
-                                        ["x"] = -365337.47542857,
+                                        ["y"] = 697965.19,
+                                        ["x"] = -366292.97171429,
                                         ["name"] = "DictKey_UnitName_650",
                                         ["payload"] = 
                                         {
@@ -6022,8 +5713,8 @@ mission =
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 259,
                                         ["psi"] = 0,
-                                        ["y"] = 698280.42114285,
-                                        ["x"] = -365377.47542857,
+                                        ["y"] = 698005.19,
+                                        ["x"] = -366332.97171429,
                                         ["name"] = "DictKey_UnitName_651",
                                         ["payload"] = 
                                         {
@@ -6041,14 +5732,226 @@ mission =
                                         ["onboard_num"] = "013",
                                     }, -- end of [2]
                                 }, -- end of ["units"]
-                                ["y"] = 698240.42114285,
-                                ["x"] = -365337.47542857,
+                                ["y"] = 697965.19,
+                                ["x"] = -366292.97171429,
                                 ["name"] = "DictKey_GroupName_649",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["modulation"] = 0,
                                 ["frequency"] = 124,
-                            }, -- end of [10]
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["lateActivation"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "CAP",
+                                ["uncontrolled"] = false,
+                                ["route"] = 
+                                {
+                                    ["routeRelativeTOT"] = false,
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 8,
+                                            ["action"] = "From Parking Area",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 138.88888888889,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAP",
+                                                            ["id"] = "EngageTargets",
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "TakeOffParking",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 563880.4375,
+                                            ["x"] = -219773.0625,
+                                            ["name"] = "DictKey_WptName_662",
+                                            ["formation_template"] = "",
+                                            ["airdromeId"] = 20,
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                        [2] = 
+                                        {
+                                            ["alt"] = 2000,
+                                            ["action"] = "Fly Over Point",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 138.88888888889,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["key"] = "CAP",
+                                                            ["id"] = "EngageTargets",
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["targetTypes"] = 
+                                                                {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                                ["priority"] = 0,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = 
+                                                        {
+                                                            ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "Orbit",
+                                                            ["number"] = 2,
+                                                            ["params"] = 
+                                                            {
+                                                                ["speedEdited"] = true,
+                                                                ["pattern"] = "Circle",
+                                                                ["speed"] = 179.86111111111,
+                                                                ["altitude"] = 3048,
+                                                                ["altitudeEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 66.687561766874,
+                                            ["ETA_locked"] = false,
+                                            ["y"] = 554624.51942857,
+                                            ["x"] = -220113.08257143,
+                                            ["name"] = "DictKey_WptName_668",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [2]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 180,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 8,
+                                        ["hardpoint_racks"] = true,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["parking"] = "30",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 261,
+                                        ["psi"] = 1.6075152390789,
+                                        ["parking_id"] = "03",
+                                        ["x"] = -219773.0625,
+                                        ["name"] = "DictKey_UnitName_660",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                                [1] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [1]
+                                                [2] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] = 
+                                                {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] = 
+                                                {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] = 
+                                                {
+                                                    ["CLSID"] = "{R-3S}",
+                                                }, -- end of [5]
+                                                [6] = 
+                                                {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["y"] = 563880.4375,
+                                        ["heading"] = -1.6075152390789,
+                                        ["callsign"] = 100,
+                                        ["onboard_num"] = "010",
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["alt"] = 8,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "Bare Metal",
+                                        ["skill"] = "High",
+                                        ["parking"] = "57",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 262,
+                                        ["psi"] = 1.6075152390789,
+                                        ["parking_id"] = "04",
+                                        ["x"] = -219760.46875,
+                                        ["name"] = "DictKey_UnitName_661",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = 2280,
+                                            ["flare"] = 40,
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["y"] = 563934.625,
+                                        ["heading"] = -1.6075152390789,
+                                        ["callsign"] = 103,
+                                        ["onboard_num"] = "013",
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["y"] = 563880.4375,
+                                ["x"] = -219773.0625,
+                                ["name"] = "DictKey_GroupName_659",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["modulation"] = 0,
+                                ["frequency"] = 124,
+                            }, -- end of [8]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["static"] = 
@@ -7444,7 +7347,6 @@ mission =
             {
             }, -- end of ["rules"]
             ["eventlist"] = "mission start",
-            ["predicate"] = "triggerOnce",
             ["actions"] = 
             {
                 [1] = 
@@ -7458,6 +7360,7 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerOnce",
             ["comment"] = "Trigger 1511294655",
         }, -- end of [1]
         [2] = 
@@ -7467,6 +7370,7 @@ mission =
             }, -- end of ["rules"]
             ["comment"] = "respawn-migs01",
             ["eventlist"] = "",
+            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7482,7 +7386,6 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["predicate"] = "triggerContinious",
         }, -- end of [2]
         [3] = 
         {
@@ -7490,7 +7393,6 @@ mission =
             {
             }, -- end of ["rules"]
             ["eventlist"] = "",
-            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7506,6 +7408,7 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerContinious",
             ["comment"] = "respawn-migs02",
         }, -- end of [3]
         [4] = 
@@ -7515,7 +7418,6 @@ mission =
             }, -- end of ["rules"]
             ["eventlist"] = "",
             ["comment"] = "respawn-migs03",
-            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7531,6 +7433,7 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerContinious",
         }, -- end of [4]
         [5] = 
         {
@@ -7538,6 +7441,7 @@ mission =
             {
             }, -- end of ["rules"]
             ["comment"] = "respawn-migs04",
+            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7553,7 +7457,6 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["predicate"] = "triggerContinious",
             ["eventlist"] = "",
         }, -- end of [5]
         [6] = 
@@ -7563,6 +7466,7 @@ mission =
             }, -- end of ["rules"]
             ["comment"] = "respawn-migs05",
             ["eventlist"] = "",
+            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7578,7 +7482,6 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["predicate"] = "triggerContinious",
         }, -- end of [6]
         [7] = 
         {
@@ -7586,7 +7489,6 @@ mission =
             {
             }, -- end of ["rules"]
             ["eventlist"] = "",
-            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7602,6 +7504,7 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerContinious",
             ["comment"] = "respawn-migs06",
         }, -- end of [7]
         [8] = 
@@ -7611,7 +7514,6 @@ mission =
             }, -- end of ["rules"]
             ["eventlist"] = "",
             ["comment"] = "respawn-migs07",
-            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7627,6 +7529,7 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerContinious",
         }, -- end of [8]
         [9] = 
         {
@@ -7634,6 +7537,7 @@ mission =
             {
             }, -- end of ["rules"]
             ["comment"] = "respawn-migs08",
+            ["predicate"] = "triggerContinious",
             ["actions"] = 
             {
                 [1] = 
@@ -7649,11 +7553,10 @@ mission =
                     }, -- end of ["ai_task"]
                 }, -- end of [1]
             }, -- end of ["actions"]
-            ["predicate"] = "triggerContinious",
             ["eventlist"] = "",
         }, -- end of [9]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 38545,
+    ["currentKey"] = 43546,
     ["start_time"] = 43200,
     ["forcedOptions"] = 
     {
