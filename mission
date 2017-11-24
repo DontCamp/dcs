@@ -9,7 +9,7 @@ mission =
         ["Year"] = 2011,
         ["Month"] = 6,
     }, -- end of ["date"]
-    ["maxDictId"] = 817,
+    ["maxDictId"] = 823,
     ["trig"] = 
     {
         ["actions"] = 
@@ -188,9 +188,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = 497097.55285714,
-        ["zoom"] = 34536,
-        ["centerX"] = -298795.77314286,
+        ["centerY"] = 674054.12099999,
+        ["zoom"] = 148567,
+        ["centerX"] = -278090.97914286,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -2116,80 +2116,20 @@ mission =
                                                         }, -- end of [5]
                                                         [6] = 
                                                         {
-                                                            ["number"] = 6,
-                                                            ["auto"] = false,
-                                                            ["id"] = "WrappedAction",
                                                             ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "FAC",
+                                                            ["number"] = 6,
                                                             ["params"] = 
                                                             {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "SetCallsign",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["number"] = 1,
-                                                                        ["callnameFlag"] = true,
-                                                                        ["callname"] = 15,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
+                                                                ["number"] = 1,
+                                                                ["designation"] = "Auto",
+                                                                ["modulation"] = 1,
+                                                                ["callname"] = 15,
+                                                                ["datalink"] = true,
+                                                                ["frequency"] = 30000000,
                                                             }, -- end of ["params"]
                                                         }, -- end of [6]
-                                                        [7] = 
-                                                        {
-                                                            ["number"] = 7,
-                                                            ["auto"] = false,
-                                                            ["id"] = "FAC_AttackGroup",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["number"] = 1,
-                                                                ["designation"] = "Auto",
-                                                                ["modulation"] = 0,
-                                                                ["groupId"] = 131,
-                                                                ["y"] = 648612.25371428,
-                                                                ["x"] = -296106.42428572,
-                                                                ["callname"] = 1,
-                                                                ["datalink"] = true,
-                                                                ["weaponType"] = 1073741822,
-                                                                ["frequency"] = 133000000,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [7]
-                                                        [8] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "FAC_AttackGroup",
-                                                            ["number"] = 8,
-                                                            ["params"] = 
-                                                            {
-                                                                ["number"] = 1,
-                                                                ["designation"] = "Auto",
-                                                                ["modulation"] = 0,
-                                                                ["groupId"] = 131,
-                                                                ["frequency"] = 133000000,
-                                                                ["weaponType"] = 1073741822,
-                                                                ["datalink"] = true,
-                                                                ["callname"] = 1,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [8]
-                                                        [9] = 
-                                                        {
-                                                            ["number"] = 9,
-                                                            ["auto"] = false,
-                                                            ["id"] = "FAC_AttackGroup",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["number"] = 1,
-                                                                ["designation"] = "Auto",
-                                                                ["modulation"] = 0,
-                                                                ["groupId"] = 132,
-                                                                ["callname"] = 1,
-                                                                ["datalink"] = true,
-                                                                ["weaponType"] = 1073741822,
-                                                                ["frequency"] = 133000000,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [9]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -2426,12 +2366,10 @@ mission =
                                                             {
                                                                 ["action"] = 
                                                                 {
-                                                                    ["id"] = "SetFrequency",
+                                                                    ["id"] = "SetInvisible",
                                                                     ["params"] = 
                                                                     {
-                                                                        ["power"] = 10,
-                                                                        ["modulation"] = 1,
-                                                                        ["frequency"] = 31000000,
+                                                                        ["value"] = true,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -2446,7 +2384,7 @@ mission =
                                                             {
                                                                 ["action"] = 
                                                                 {
-                                                                    ["id"] = "SetInvisible",
+                                                                    ["id"] = "SetImmortal",
                                                                     ["params"] = 
                                                                     {
                                                                         ["value"] = true,
@@ -2464,24 +2402,6 @@ mission =
                                                             {
                                                                 ["action"] = 
                                                                 {
-                                                                    ["id"] = "SetImmortal",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 5,
-                                                            ["params"] = 
-                                                            {
-                                                                ["action"] = 
-                                                                {
                                                                     ["id"] = "Option",
                                                                     ["params"] = 
                                                                     {
@@ -2490,47 +2410,23 @@ mission =
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
-                                                        }, -- end of [5]
-                                                        [6] = 
+                                                        }, -- end of [4]
+                                                        [5] = 
                                                         {
-                                                            ["number"] = 6,
-                                                            ["auto"] = false,
-                                                            ["id"] = "WrappedAction",
                                                             ["enabled"] = true,
+                                                            ["auto"] = false,
+                                                            ["id"] = "FAC",
+                                                            ["number"] = 5,
                                                             ["params"] = 
                                                             {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "SetCallsign",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["number"] = 1,
-                                                                        ["callnameFlag"] = true,
-                                                                        ["callname"] = 15,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [6]
-                                                        [7] = 
-                                                        {
-                                                            ["number"] = 7,
-                                                            ["auto"] = false,
-                                                            ["id"] = "FAC_AttackGroup",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["number"] = 1,
+                                                                ["number"] = 2,
                                                                 ["designation"] = "Auto",
-                                                                ["modulation"] = 0,
-                                                                ["groupId"] = 122,
-                                                                ["y"] = 648612.25371428,
-                                                                ["x"] = -296106.42428572,
-                                                                ["callname"] = 1,
+                                                                ["modulation"] = 1,
+                                                                ["callname"] = 15,
                                                                 ["datalink"] = true,
-                                                                ["weaponType"] = 1073741822,
-                                                                ["frequency"] = 133000000,
+                                                                ["frequency"] = 30000000,
                                                             }, -- end of ["params"]
-                                                        }, -- end of [7]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
@@ -4082,187 +3978,6 @@ mission =
                                 {
                                 }, -- end of ["tasks"]
                                 ["radioSet"] = false,
-                                ["task"] = "AFAC",
-                                ["uncontrolled"] = false,
-                                ["taskSelected"] = true,
-                                ["route"] = 
-                                {
-                                    ["points"] = 
-                                    {
-                                        [1] = 
-                                        {
-                                            ["alt"] = 2000,
-                                            ["action"] = "Fly Over Point",
-                                            ["alt_type"] = "BARO",
-                                            ["speed"] = 138.88888888889,
-                                            ["task"] = 
-                                            {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = 
-                                                {
-                                                    ["tasks"] = 
-                                                    {
-                                                        [1] = 
-                                                        {
-                                                            ["number"] = 1,
-                                                            ["auto"] = true,
-                                                            ["id"] = "FAC",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = 
-                                                        {
-                                                            ["number"] = 2,
-                                                            ["auto"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["value"] = true,
-                                                                        ["groupId"] = 3,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                        [3] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 3,
-                                                            ["params"] = 
-                                                            {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "SetInvisible",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [3]
-                                                        [4] = 
-                                                        {
-                                                            ["number"] = 4,
-                                                            ["auto"] = false,
-                                                            ["id"] = "WrappedAction",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["action"] = 
-                                                                {
-                                                                    ["id"] = "SetImmortal",
-                                                                    ["params"] = 
-                                                                    {
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [4]
-                                                        [5] = 
-                                                        {
-                                                            ["number"] = 5,
-                                                            ["auto"] = false,
-                                                            ["id"] = "Orbit",
-                                                            ["enabled"] = true,
-                                                            ["params"] = 
-                                                            {
-                                                                ["altitude"] = 2438.4,
-                                                                ["pattern"] = "Circle",
-                                                                ["speed"] = 30.555555555556,
-                                                                ["altitudeEdited"] = true,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [5]
-                                                        [6] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "FAC",
-                                                            ["number"] = 6,
-                                                            ["params"] = 
-                                                            {
-                                                                ["number"] = 1,
-                                                                ["designation"] = "Auto",
-                                                                ["modulation"] = 1,
-                                                                ["callname"] = 1,
-                                                                ["datalink"] = true,
-                                                                ["frequency"] = 32000000,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [6]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["y"] = 650690.49171429,
-                                            ["x"] = -276378.67600001,
-                                            ["name"] = "DictKey_WptName_810",
-                                            ["formation_template"] = "",
-                                            ["speed_locked"] = true,
-                                        }, -- end of [1]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["groupId"] = 206,
-                                ["hidden"] = false,
-                                ["units"] = 
-                                {
-                                    [1] = 
-                                    {
-                                        ["alt"] = 2000,
-                                        ["alt_type"] = "BARO",
-                                        ["livery_id"] = "USAF Standard",
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "RQ-1A Predator",
-                                        ["unitId"] = 306,
-                                        ["psi"] = 0,
-                                        ["y"] = 650690.49171429,
-                                        ["x"] = -276378.67600001,
-                                        ["name"] = "DictKey_UnitName_809",
-                                        ["payload"] = 
-                                        {
-                                            ["pylons"] = 
-                                            {
-                                            }, -- end of ["pylons"]
-                                            ["fuel"] = "200",
-                                            ["flare"] = 0,
-                                            ["chaff"] = 0,
-                                            ["gun"] = 100,
-                                        }, -- end of ["payload"]
-                                        ["heading"] = 0,
-                                        ["callsign"] = 
-                                        {
-                                            [1] = 5,
-                                            [2] = 1,
-                                            [3] = 1,
-                                            ["name"] = "Dodge11",
-                                        }, -- end of ["callsign"]
-                                        ["onboard_num"] = "057",
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["y"] = 650690.49171429,
-                                ["x"] = -276378.67600001,
-                                ["name"] = "DictKey_GroupName_808",
-                                ["communication"] = true,
-                                ["start_time"] = 0,
-                                ["frequency"] = 127.5,
-                            }, -- end of [10]
-                            [11] = 
-                            {
-                                ["modulation"] = 0,
-                                ["tasks"] = 
-                                {
-                                }, -- end of ["tasks"]
-                                ["radioSet"] = false,
                                 ["task"] = "AWACS",
                                 ["uncontrolled"] = false,
                                 ["route"] = 
@@ -4271,7 +3986,7 @@ mission =
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 7620,
+                                            ["alt"] = 10668,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
                                             ["speed"] = 138.88888888889,
@@ -4362,7 +4077,7 @@ mission =
                                                                     {
                                                                         ["power"] = 10,
                                                                         ["modulation"] = 0,
-                                                                        ["frequency"] = 154000000,
+                                                                        ["frequency"] = 151000000,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -4375,29 +4090,21 @@ mission =
                                                             ["number"] = 6,
                                                             ["params"] = 
                                                             {
-                                                                ["altitude"] = 7620,
+                                                                ["speedEdited"] = true,
                                                                 ["pattern"] = "Circle",
-                                                                ["speed"] = 119.44444444444,
+                                                                ["speed"] = 138.75,
+                                                                ["altitude"] = 10668,
+                                                                ["altitudeEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [6]
-                                                        [7] = 
-                                                        {
-                                                            ["enabled"] = true,
-                                                            ["auto"] = false,
-                                                            ["id"] = "AWACS",
-                                                            ["number"] = 7,
-                                                            ["params"] = 
-                                                            {
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [7]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = 755212.00457142,
-                                            ["x"] = -291892.51228572,
+                                            ["y"] = 685991.34514286,
+                                            ["x"] = -278663.10171429,
                                             ["name"] = "DictKey_WptName_817",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -4410,7 +4117,7 @@ mission =
                                 {
                                     [1] = 
                                     {
-                                        ["alt"] = 7620,
+                                        ["alt"] = 10668,
                                         ["alt_type"] = "BARO",
                                         ["livery_id"] = "nato",
                                         ["skill"] = "Excellent",
@@ -4418,8 +4125,8 @@ mission =
                                         ["type"] = "E-3A",
                                         ["unitId"] = 308,
                                         ["psi"] = 0,
-                                        ["y"] = 755212.00457142,
-                                        ["x"] = -291892.51228572,
+                                        ["y"] = 685991.34514286,
+                                        ["x"] = -278663.10171429,
                                         ["name"] = "DictKey_UnitName_816",
                                         ["payload"] = 
                                         {
@@ -4442,12 +4149,183 @@ mission =
                                         ["onboard_num"] = "058",
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["y"] = 755212.00457142,
-                                ["x"] = -291892.51228572,
+                                ["y"] = 685991.34514286,
+                                ["x"] = -278663.10171429,
                                 ["name"] = "DictKey_GroupName_815",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
                                 ["frequency"] = 251,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["modulation"] = 0,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["radioSet"] = false,
+                                ["task"] = "AFAC",
+                                ["uncontrolled"] = false,
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 2000,
+                                            ["action"] = "Turning Point",
+                                            ["alt_type"] = "BARO",
+                                            ["speed"] = 138.88888888889,
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                        [1] = 
+                                                        {
+                                                            ["number"] = 1,
+                                                            ["auto"] = true,
+                                                            ["id"] = "FAC",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["number"] = 1,
+                                                                ["designation"] = "Auto",
+                                                                ["modulation"] = 1,
+                                                                ["callname"] = 5,
+                                                                ["datalink"] = true,
+                                                                ["frequency"] = 30000000,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = 
+                                                        {
+                                                            ["number"] = 2,
+                                                            ["auto"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                        ["groupId"] = 3,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                        [3] = 
+                                                        {
+                                                            ["number"] = 3,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetInvisible",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [3]
+                                                        [4] = 
+                                                        {
+                                                            ["number"] = 4,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetImmortal",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [4]
+                                                        [5] = 
+                                                        {
+                                                            ["number"] = 5,
+                                                            ["auto"] = false,
+                                                            ["id"] = "Orbit",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["altitude"] = 2286,
+                                                                ["pattern"] = "Circle",
+                                                                ["speed"] = 30.555555555556,
+                                                                ["altitudeEdited"] = true,
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["y"] = 650507.79999999,
+                                            ["x"] = -278312.224,
+                                            ["name"] = "DictKey_WptName_823",
+                                            ["formation_template"] = "",
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 210,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["alt"] = 2000,
+                                        ["alt_type"] = "BARO",
+                                        ["livery_id"] = "USAF Standard",
+                                        ["skill"] = "High",
+                                        ["speed"] = 138.88888888889,
+                                        ["type"] = "RQ-1A Predator",
+                                        ["unitId"] = 310,
+                                        ["psi"] = 0,
+                                        ["y"] = 650507.79999999,
+                                        ["x"] = -278312.224,
+                                        ["name"] = "DictKey_UnitName_822",
+                                        ["payload"] = 
+                                        {
+                                            ["pylons"] = 
+                                            {
+                                            }, -- end of ["pylons"]
+                                            ["fuel"] = "200",
+                                            ["flare"] = 0,
+                                            ["chaff"] = 0,
+                                            ["gun"] = 100,
+                                        }, -- end of ["payload"]
+                                        ["heading"] = 0,
+                                        ["callsign"] = 
+                                        {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["onboard_num"] = "059",
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = 650507.79999999,
+                                ["x"] = -278312.224,
+                                ["name"] = "DictKey_GroupName_821",
+                                ["communication"] = true,
+                                ["start_time"] = 0,
+                                ["frequency"] = 127.5,
                             }, -- end of [11]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -9100,7 +8978,7 @@ mission =
             ["comment"] = "senaki fuel trucks",
         }, -- end of [3]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 109752,
+    ["currentKey"] = 113002,
     ["start_time"] = 43200,
     ["forcedOptions"] = 
     {
@@ -9188,22 +9066,6 @@ mission =
             ["mmint"] = 1,
             ["mm"] = 0,
         }, -- end of ["r_engine"]
-        ["radar"] = 
-        {
-            ["hh"] = 0,
-            ["prob"] = 100,
-            ["enable"] = false,
-            ["mmint"] = 1,
-            ["mm"] = 0,
-        }, -- end of ["radar"]
-        ["mfd"] = 
-        {
-            ["hh"] = 0,
-            ["prob"] = 100,
-            ["enable"] = false,
-            ["mmint"] = 1,
-            ["mm"] = 0,
-        }, -- end of ["mfd"]
         ["mlws"] = 
         {
             ["hh"] = 0,
@@ -9212,5 +9074,21 @@ mission =
             ["mmint"] = 1,
             ["mm"] = 0,
         }, -- end of ["mlws"]
+        ["mfd"] = 
+        {
+            ["hh"] = 0,
+            ["prob"] = 100,
+            ["enable"] = false,
+            ["mmint"] = 1,
+            ["mm"] = 0,
+        }, -- end of ["mfd"]
+        ["radar"] = 
+        {
+            ["hh"] = 0,
+            ["prob"] = 100,
+            ["enable"] = false,
+            ["mmint"] = 1,
+            ["mm"] = 0,
+        }, -- end of ["radar"]
     }, -- end of ["failures"]
 } -- end of mission
