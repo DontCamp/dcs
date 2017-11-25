@@ -54,13 +54,13 @@ options =
         ["use_mouse"] = true,
         ["enable"] = true,
         ["box_mouse_cursor"] = true,
-        ["pixel_density"] = 2,
+        ["pixel_density"] = 1,
     }, -- end of ["VR"]
     ["graphics"] = 
     {
         ["LensEffects"] = 0,
         ["heatBlr"] = 0,
-        ["anisotropy"] = 1,
+        ["anisotropy"] = 4,
         ["water"] = 1,
         ["scaleGui"] = false,
         ["outputGamma"] = 2.2,
@@ -68,7 +68,7 @@ options =
         ["aspect"] = 1.6666666666,
         ["lights"] = 2,
         ["shadows"] = 3,
-        ["MSAA"] = 0,
+        ["MSAA"] = 1,
         ["civTraffic"] = "low",
         ["clutterMaxDistance"] = 750,
         ["cockpitGI"] = 0,
@@ -90,7 +90,7 @@ options =
         ["HDR"] = 0,
         ["preloadRadius"] = 100000,
         ["visibRange"] = "Medium",
-        ["textures"] = 1,
+        ["textures"] = 2,
         ["width"] = 1280,
     }, -- end of ["graphics"]
     ["plugins"] = 
@@ -117,7 +117,7 @@ options =
         ["Ka-50"] = 
         {
             ["Ka50TrimmingMethod"] = 0,
-            ["CPLocalList"] = "default",
+            ["CPLocalList"] = "english",
             ["Ka50RudderTrimmer"] = false,
         }, -- end of ["Ka-50"]
         ["TF-51D"] = 
@@ -160,7 +160,7 @@ options =
         {
             ["mirrors"] = false,
             ["reflections"] = false,
-            ["avionics"] = 1,
+            ["avionics"] = 3,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options
