@@ -8,6 +8,23 @@ dictionary =
     ["DictKey_GroupName_11"] = "A-10C hot #001",
     ["DictKey_GroupName_23"] = "Su-27 hot",
     ["DictKey_WptName_196"] = "",
+    ["DictKey_ActionText_234"] = "function groupRespawn ()\
+  for groupName, groupData in pairs(mist.DBs.groupsByName) do\
+    local respawn_group = false\
+    if string.find(string.lower(groupName), 'respawn') and next(Group.getByName(groupName):getUnits()) == nil then\
+      respawn_group = true\
+    elseif string.find(string.lower(groupName), 'respawn') and not Group.getByName(groupName) then\
+      respawn_group = true\
+    end\
+    if respawn_group then\
+      local yubibomb = math.random(10000)\
+      if yubibomb >= 9900 then      \
+        mist.respawnGroup(groupName, true)\
+        trigger.action.outText('THAT\\'S NUMBERWANG - Group \"' .. groupName .. '\" respawned.', 10, false)\
+      end\
+    end\
+  end\
+end",
     ["DictKey_UnitName_233"] = "Unit #006",
     ["DictKey_GroupName_65"] = "Tanker Slow US",
     ["DictKey_WptName_76"] = "",
@@ -29,7 +46,7 @@ dictionary =
     ["DictKey_WptName_43"] = "",
     ["DictKey_UnitName_115"] = "",
     ["DictKey_ActionText_211"] = "Restarting mission from radio menu...",
-    ["DictKey_UnitName_90"] = "Pilot #020",
+    ["DictKey_WptName_212"] = "",
     ["DictKey_GroupName_97"] = "Ka-50 hot",
     ["DictKey_UnitName_207"] = "Unit #006",
     ["DictKey_UnitName_36"] = "Pilot #012",
@@ -38,7 +55,7 @@ dictionary =
     ["DictKey_UnitName_157"] = "Unit #002",
     ["DictKey_UnitName_190"] = "command bunker",
     ["DictKey_WptName_147"] = "",
-    ["DictKey_UnitName_138"] = "Pilot #030",
+    ["DictKey_UnitName_168"] = "Unit #013",
     ["DictKey_WptName_204"] = "",
     ["DictKey_WptName_136"] = "",
     ["DictKey_GroupName_189"] = "command bunker",
@@ -53,40 +70,24 @@ dictionary =
     ["DictKey_UnitName_172"] = "Unit #017",
     ["DictKey_GroupName_15"] = "A-10A hot",
     ["DictKey_UnitName_92"] = "Pilot #010",
-    ["DictKey_ActionText_32"] = "if mist.DBs.groupsByName then\
-for groupName, groupData in pairs(mist.DBs.groupsByName) do\
-  local respawn_group = false\
-  if string.find(string.lower(groupName), 'respawn') and next(Group.getByName(groupName):getUnits()) == nil then\
-    respawn_group = true\
-  elseif string.find(string.lower(groupName), 'respawn') and not Group.getByName(groupName) then\
-    respawn_group = true\
-  end\
-  if respawn_group then\
-    local yubibomb = math.random(10000)\
-    if yubibomb >= 9900 then      \
-      mist.respawnGroup(groupName, true)\
-      trigger.action.outText('THAT\\'S NUMBERWANG - Group \"' .. groupName .. '\" respawned.', 10, false)\
-    end\
-  end\
-end\
-end",
+    ["DictKey_ActionText_32"] = "pcall(groupRespawn)",
     ["DictKey_WptName_151"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
     ["DictKey_WptName_120"] = "",
     ["DictKey_GroupName_33"] = "migs area51 [respawn]",
     ["DictKey_UnitName_183"] = "",
     ["DictKey_GroupName_50"] = "Predator01",
-    ["DictKey_UnitName_103"] = "Pilot #024",
-    ["DictKey_WptName_56"] = "",
     ["DictKey_WptName_55"] = "",
+    ["DictKey_WptName_56"] = "",
+    ["DictKey_UnitName_103"] = "Pilot #024",
     ["DictKey_UnitName_187"] = "JTAC02",
     ["DictKey_UnitName_170"] = "Unit #015",
     ["DictKey_UnitName_159"] = "Unit #004",
     ["DictKey_WptName_177"] = "",
     ["DictKey_UnitName_51"] = "Predator01",
     ["DictKey_UnitName_162"] = "Unit #007",
+    ["DictKey_WptName_14"] = "",
     ["DictKey_UnitName_227"] = "Pilot #036",
-    ["DictKey_UnitName_153"] = "Unit #001",
     ["DictKey_WptName_216"] = "",
     ["DictKey_UnitName_78"] = "Pilot #002",
     ["DictKey_GroupName_38"] = "APC east [respawn]",
@@ -130,20 +131,20 @@ end",
     ["DictKey_sortie_4"] = "",
     ["DictKey_UnitName_158"] = "Unit #003",
     ["DictKey_GroupName_175"] = "",
-    ["DictKey_WptName_212"] = "",
+    ["DictKey_UnitName_87"] = "",
     ["DictKey_UnitName_185"] = "Unit #005",
     ["DictKey_ActionText_214"] = " myLogger = mist.Logger:new(\"respawn_logger\", \"info\")",
     ["DictKey_GroupName_152"] = "APC west [respawn]",
-    ["DictKey_WptName_110"] = "",
+    ["DictKey_UnitName_128"] = "Pilot #029",
     ["DictKey_WptName_18"] = "",
     ["DictKey_GroupName_217"] = "APC east [respawn]",
     ["DictKey_GroupName_68"] = "Tanker Fast Russia",
     ["DictKey_GroupName_111"] = "",
     ["DictKey_UnitName_29"] = "Pilot #010",
-    ["DictKey_UnitName_141"] = "Pilot #031",
+    ["DictKey_WptName_110"] = "",
     ["DictKey_UnitName_24"] = "Pilot #007",
     ["DictKey_UnitName_167"] = "Unit #012",
-    ["DictKey_UnitName_128"] = "Pilot #029",
+    ["DictKey_UnitName_141"] = "Pilot #031",
     ["DictKey_WptName_113"] = "",
     ["DictKey_WptName_30"] = "",
     ["DictKey_GroupName_114"] = "",
@@ -166,7 +167,7 @@ end",
     ["DictKey_UnitName_221"] = "Unit #005",
     ["DictKey_WptName_64"] = "",
     ["DictKey_UnitName_164"] = "Unit #009",
-    ["DictKey_UnitName_220"] = "Unit #004",
+    ["DictKey_UnitName_88"] = "Pilot #018",
     ["DictKey_UnitName_75"] = "Pilot #012",
     ["DictKey_WptName_54"] = "",
     ["DictKey_UnitName_203"] = "Pilot #013",
@@ -178,7 +179,7 @@ Tankers available on VHF AM 150\
 Tanker \"Shell\" @ ~220kts, TACAN 01X\
 Tanker \"Texaco\" @ ~350kts, TACAN 02X\
 Tanker \"153\" is a dirty communist, hoarding precious bodily fluids.",
-    ["DictKey_WptName_208"] = "",
+    ["DictKey_UnitName_220"] = "Unit #004",
     ["DictKey_WptName_232"] = "",
     ["DictKey_UnitName_195"] = "Pilot #013",
     ["DictKey_WptName_79"] = "",
@@ -208,7 +209,7 @@ Tanker \"153\" is a dirty communist, hoarding precious bodily fluids.",
     ["DictKey_UnitName_161"] = "Unit #006",
     ["DictKey_WptName_193"] = "",
     ["DictKey_UnitName_219"] = "Unit #003",
-    ["DictKey_UnitName_88"] = "Pilot #018",
+    ["DictKey_WptName_208"] = "",
     ["DictKey_UnitName_145"] = "Pilot #034",
     ["DictKey_UnitName_200"] = "Unit #006",
     ["DictKey_UnitName_82"] = "Pilot #004",
@@ -229,17 +230,17 @@ Tanker \"153\" is a dirty communist, hoarding precious bodily fluids.",
     ["DictKey_WptName_215"] = "",
     ["DictKey_ActionText_179"] = "MiGs have triggered to defend alien technology.",
     ["DictKey_UnitName_98"] = "Pilot #022",
-    ["DictKey_UnitName_87"] = "",
+    ["DictKey_UnitName_90"] = "Pilot #020",
     ["DictKey_WptName_150"] = "",
     ["DictKey_UnitName_66"] = "Pilot #015",
-    ["DictKey_UnitName_168"] = "Unit #013",
+    ["DictKey_UnitName_69"] = "Pilot #016",
     ["DictKey_UnitName_122"] = "Pilot #026",
     ["DictKey_ActionText_181"] = "area51 migs deactivated",
     ["DictKey_UnitName_174"] = "Unit #019",
     ["DictKey_UnitName_144"] = "Pilot #033",
-    ["DictKey_UnitName_69"] = "Pilot #016",
+    ["DictKey_UnitName_138"] = "Pilot #030",
     ["DictKey_UnitName_17"] = "Pilot #006",
-    ["DictKey_WptName_14"] = "",
+    ["DictKey_UnitName_153"] = "Unit #001",
     ["DictKey_UnitName_48"] = "Unit #001",
     ["DictKey_UnitName_129"] = "Pilot #012",
     ["DictKey_WptName_139"] = "",
