@@ -1,0 +1,23 @@
+#!/bin/bash -e
+
+# These two vars must be configured in this file, and will be
+# shared amongst scripts that need them.
+dcs_mission_dir=
+git_dir=
+
+if [[ -z "$dcs_mission_dir" ]]; then
+    echo 'dcs_mission_dir setting required in params.sh' 
+    exit 1
+fi
+
+if [[ -z "$git_dir" ]]; then
+    echo 'git_dir setting required in params.sh' 
+    exit 1
+fi
+
+mission="$1"
+
+if [[ -z "$mission" ]]; then
+    echo 'mission CLI argument required, e.g. mission-budahas'
+    exit 1
+fi
