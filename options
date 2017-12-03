@@ -1,21 +1,21 @@
 options = 
 {
-    ["playerName"] = "nt",
+    ["playerName"] = "New callsign",
     ["miscellaneous"] = 
     {
         ["headmove"] = false,
-        ["TrackIR_external_views"] = true,
+        ["TrackIR_external_views"] = false,
         ["f5_nearest_ac"] = true,
         ["f11_free_camera"] = true,
-        ["F2_view_effects"] = 1,
+        ["F2_view_effects"] = 0,
         ["f10_awacs"] = true,
-        ["Coordinate_Display"] = "Lat Long",
+        ["Coordinate_Display"] = "MGRS",
         ["accidental_failures"] = false,
         ["autologin"] = true,
-        ["force_feedback_enabled"] = true,
+        ["force_feedback_enabled"] = false,
         ["collect_stat"] = false,
         ["show_pilot_body"] = false,
-        ["synchronize_controls"] = false,
+        ["synchronize_controls"] = true,
         ["chat_window_at_start"] = true,
     }, -- end of ["miscellaneous"]
     ["difficulty"] = 
@@ -24,7 +24,7 @@ options =
         ["easyRadar"] = false,
         ["labels"] = true,
         ["miniHUD"] = false,
-        ["cockpitStatusBarAllowed"] = true,
+        ["cockpitStatusBarAllowed"] = false,
         ["birds"] = 0,
         ["optionsView"] = "optview_all",
         ["permitCrash"] = true,
@@ -47,51 +47,51 @@ options =
         ["map"] = true,
         ["weapons"] = false,
         ["setGlobal"] = true,
-        ["geffect"] = "reduced",
+        ["geffect"] = "realistic",
     }, -- end of ["difficulty"]
     ["VR"] = 
     {
         ["use_mouse"] = true,
         ["enable"] = true,
         ["box_mouse_cursor"] = true,
-        ["pixel_density"] = 1.5,
+        ["pixel_density"] = 1,
     }, -- end of ["VR"]
     ["graphics"] = 
     {
-        ["LensEffects"] = 2,
+        ["LensEffects"] = 0,
         ["heatBlr"] = 0,
         ["anisotropy"] = 4,
-        ["water"] = 0,
+        ["water"] = 1,
         ["scaleGui"] = false,
-        ["outputGamma"] = 1.5,
-        ["treesVisibility"] = 10140,
-        ["aspect"] = 1.3333333333333,
+        ["outputGamma"] = 1,
+        ["treesVisibility"] = 5000,
+        ["aspect"] = 1.6666666666,
         ["lights"] = 2,
-        ["shadows"] = 2,
-        ["MSAA"] = 0,
-        ["civTraffic"] = "",
-        ["clutterMaxDistance"] = 190,
+        ["shadows"] = 3,
+        ["MSAA"] = 1,
+        ["civTraffic"] = "low",
+        ["clutterMaxDistance"] = 750,
         ["cockpitGI"] = 0,
-        ["terrainTextures"] = "max",
+        ["terrainTextures"] = "min",
         ["multiMonitorSetup"] = "1camera",
         ["shadowTree"] = false,
-        ["chimneySmokeDensity"] = 10,
+        ["chimneySmokeDensity"] = 0,
         ["fullScreen"] = false,
         ["disableAero"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
         ["useDeferredShading"] = 1,
-        ["flatTerrainShadows"] = 2,
-        ["height"] = 1440,
+        ["flatTerrainShadows"] = 1,
+        ["height"] = 768,
         ["effects"] = 3,
         ["SSAO"] = 0,
         ["motionBlur"] = 0,
         ["sync"] = false,
         ["HDR"] = 0,
-        ["preloadRadius"] = 150000,
-        ["visibRange"] = "High",
+        ["preloadRadius"] = 100000,
+        ["visibRange"] = "Medium",
         ["textures"] = 2,
-        ["width"] = 1920,
+        ["width"] = 1280,
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
@@ -99,13 +99,12 @@ options =
         {
             ["CPLocalList"] = "default",
         }, -- end of ["Su-25T"]
-        ["M-2000C"] = 
+        ["Ka-50"] = 
         {
-            ["UNI_ALIGNED"] = false,
-            ["CPLocalList"] = "default",
-            ["PPA_TOTPAR"] = false,
-            ["UNI_NODRIFT"] = false,
-        }, -- end of ["M-2000C"]
+            ["Ka50TrimmingMethod"] = 0,
+            ["CPLocalList"] = "english",
+            ["Ka50RudderTrimmer"] = false,
+        }, -- end of ["Ka-50"]
         ["A-10C"] = 
         {
             ["CPLocalList"] = "default",
@@ -127,20 +126,33 @@ options =
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
+        ["UH-1H"] = 
+        {
+            ["UHRudderTrimmer"] = false,
+            ["autoPilot"] = true,
+            ["UH1HCockpitShake"] = 50,
+            ["CPLocalList"] = "default",
+            ["weapTooltips"] = true,
+            ["UHTrimmingMethod"] = 0,
+        }, -- end of ["UH-1H"]
+        ["A-10A"] = 
+        {
+            ["CPLocalList"] = "default",
+        }, -- end of ["A-10A"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
     {
-        ["hear_in_helmet"] = false,
+        ["hear_in_helmet"] = true,
         ["headphones"] = 100,
         ["cockpit"] = 100,
         ["GBreathEffect"] = true,
         ["gui"] = 100,
-        ["volume"] = 14,
+        ["volume"] = 51,
         ["radioSpeech"] = true,
         ["music"] = 0,
         ["subtitles"] = true,
-        ["world"] = 20,
+        ["world"] = 100,
     }, -- end of ["sound"]
     ["views"] = 
     {
