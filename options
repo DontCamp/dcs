@@ -60,7 +60,7 @@ options =
     {
         ["LensEffects"] = 2,
         ["heatBlr"] = 0,
-        ["anisotropy"] = 0,
+        ["anisotropy"] = 2,
         ["water"] = 0,
         ["scaleGui"] = false,
         ["outputGamma"] = 1,
@@ -148,7 +148,7 @@ options =
         {
             ["mirrors"] = true,
             ["reflections"] = false,
-            ["avionics"] = 4,
+            ["avionics"] = 3,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options
