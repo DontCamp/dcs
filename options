@@ -12,7 +12,7 @@ options =
         ["Coordinate_Display"] = "Lat Long",
         ["accidental_failures"] = false,
         ["autologin"] = true,
-        ["force_feedback_enabled"] = true,
+        ["force_feedback_enabled"] = false,
         ["collect_stat"] = false,
         ["show_pilot_body"] = false,
         ["synchronize_controls"] = false,
@@ -54,7 +54,7 @@ options =
         ["use_mouse"] = true,
         ["enable"] = true,
         ["box_mouse_cursor"] = true,
-        ["pixel_density"] = 1.5,
+        ["pixel_density"] = 1.4,
     }, -- end of ["VR"]
     ["graphics"] = 
     {
@@ -117,7 +117,7 @@ options =
             ["CPLocalList_MiG-29A"] = "default",
             ["CPLocalList_Su-25"] = "default",
             ["CPLocalList_A-10A"] = "default",
-            ["CPLocalList_Su-27"] = "English Gray",
+            ["CPLocalList_Su-27"] = "English Blue",
             ["CPLocalList_MiG-29G"] = "default",
             ["CPLocalList_Su-33"] = "default",
         }, -- end of ["FC3"]

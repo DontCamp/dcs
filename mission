@@ -5,8 +5,8 @@ mission =
     }, -- end of ["requiredModules"]
     ["date"] = 
     {
-        ["Day"] = 1,
         ["Year"] = 2011,
+        ["Day"] = 1,
         ["Month"] = 6,
     }, -- end of ["date"]
     ["maxDictId"] = 452,
@@ -320,9 +320,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = -74498.406285715,
-        ["zoom"] = 2697,
-        ["centerX"] = -359755.1341429,
+        ["centerY"] = -74594.765714286,
+        ["zoom"] = 1999,
+        ["centerX"] = -359694.30185718,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -8669,8 +8669,8 @@ mission =
             }, -- end of ["actions"]
         }, -- end of [11]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 74646,
-    ["start_time"] = 43200,
+    ["currentKey"] = 76598,
+    ["start_time"] = 15300,
     ["forcedOptions"] = 
     {
         ["weapons"] = true,
