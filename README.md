@@ -45,7 +45,7 @@ Which, for the **Saved Games/DCS/Liveries** overlay/search path becomes:
 
 **C:\Users\myusername\Saved Games\DCS\Liveries\su-27**
 
-Modules produced by third-party developers, such as the Mirage 2000, may some something like this:
+Modules produced by third-party developers, such as the Mirage 2000, may look something like this:
 
 **C:\Program Files (x86)\Steam\steamapps\common\DCSWorld\CoreMods\aircraft\M-2000C\Liveries\M-2000C**
 
