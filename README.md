@@ -53,7 +53,7 @@ Which, for the **Saved Games\DCS\Liveries** overlay/search path becomes:
 
 ```C:\Users\yourusername\Saved Games\DCS\Liveries\M-2000C```
 
-After all is said and done, you should wind up with a tree that looks a bit like this:
+After livery installation, you should wind up with a tree that looks a bit like this:
 
 ```
 Saved Games\DCS\Liveries
@@ -65,4 +65,19 @@ Saved Games\DCS\Liveries
         ├── M2KC_2T_DD.dds
         ├── M2KC_7T_DD.dds
         └── Thumbs.db
+```
+
+Proposed ZIP file layout:
+
+```
+Liveries.zip
+└── Liveries
+    └── M-2000C
+        └── Delta Dagger 317
+            ├── description.lua
+            ├── empty.dds
+            ├── M2KC_1T_DD.dds
+            ├── M2KC_2T_DD.dds
+            ├── M2KC_7T_DD.dds
+            └── Thumbs.db
 ```
