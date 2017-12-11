@@ -71,7 +71,7 @@ options =
         ["MSAA"] = 2,
         ["civTraffic"] = "",
         ["clutterMaxDistance"] = 190,
-        ["cockpitGI"] = 1,
+        ["cockpitGI"] = 0,
         ["terrainTextures"] = "max",
         ["multiMonitorSetup"] = "1camera",
         ["shadowTree"] = false,
@@ -80,7 +80,7 @@ options =
         ["disableAero"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
-        ["useDeferredShading"] = 1,
+        ["useDeferredShading"] = 0,
         ["flatTerrainShadows"] = 2,
         ["height"] = 1440,
         ["effects"] = 3,
@@ -102,7 +102,7 @@ options =
         ["M-2000C"] = 
         {
             ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "EN by gospadin",
+            ["CPLocalList"] = "default",
             ["PPA_TOTPAR"] = false,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
