@@ -330,9 +330,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = -54223.960285715,
-        ["zoom"] = 1326609,
-        ["centerX"] = -428898.15585714,
+        ["centerY"] = 12148.009714283,
+        ["zoom"] = 1674545,
+        ["centerX"] = -447821.68814286,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -4903,10 +4903,10 @@ mission =
                                     {
                                         [1] = 
                                         {
-                                            ["alt"] = 2743.2,
+                                            ["alt"] = 3657.6,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
-                                            ["speed"] = 143.88888888889,
+                                            ["speed"] = 159.30555555556,
                                             ["task"] = 
                                             {
                                                 ["id"] = "ComboTask",
@@ -4998,9 +4998,9 @@ mission =
                                                             ["number"] = 6,
                                                             ["params"] = 
                                                             {
-                                                                ["altitude"] = 2743.2,
+                                                                ["altitude"] = 3657.6,
                                                                 ["pattern"] = "Circle",
-                                                                ["speed"] = 143.88888888889,
+                                                                ["speed"] = 159.30555555556,
                                                                 ["speedEdited"] = true,
                                                             }, -- end of ["params"]
                                                         }, -- end of [6]
@@ -5010,8 +5010,8 @@ mission =
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = -65093.68657143,
-                                            ["x"] = -365999.84285716,
+                                            ["y"] = -62501.281714287,
+                                            ["x"] = -361917.28685714,
                                             ["name"] = "DictKey_WptName_70",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -5024,16 +5024,16 @@ mission =
                                 {
                                     [1] = 
                                     {
-                                        ["alt"] = 2743.2,
+                                        ["alt"] = 3657.6,
                                         ["alt_type"] = "BARO",
                                         ["livery_id"] = "RF Air Force",
                                         ["skill"] = "Excellent",
-                                        ["speed"] = 143.88888888889,
+                                        ["speed"] = 159.30555555556,
                                         ["type"] = "IL-78M",
                                         ["unitId"] = 21,
                                         ["psi"] = 0,
-                                        ["y"] = -65093.68657143,
-                                        ["x"] = -365999.84285716,
+                                        ["y"] = -62501.281714287,
+                                        ["x"] = -361917.28685714,
                                         ["name"] = "DictKey_UnitName_69",
                                         ["payload"] = 
                                         {
@@ -5050,12 +5050,12 @@ mission =
                                         ["onboard_num"] = "014",
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["y"] = -65093.68657143,
-                                ["x"] = -365999.84285716,
+                                ["y"] = -62501.281714287,
+                                ["x"] = -361917.28685714,
                                 ["name"] = "DictKey_GroupName_68",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
-                                ["frequency"] = 251,
+                                ["frequency"] = 140,
                             }, -- end of [5]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -8857,7 +8857,7 @@ mission =
             ["comment"] = "frogfoot deactivate test",
         }, -- end of [11]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 96279,
+    ["currentKey"] = 97279,
     ["start_time"] = 64800,
     ["forcedOptions"] = 
     {
