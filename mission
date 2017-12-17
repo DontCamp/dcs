@@ -29,8 +29,8 @@ mission =
             [14] = "a_activate_group(96);a_scenery_destruction_zone(370, 100);a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_550\"), 10, false); mission.trig.func[14]=nil;",
             [15] = "a_activate_group(95);a_scenery_destruction_zone(371, 100);a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_551\"), 10, false); mission.trig.func[15]=nil;",
             [16] = "a_activate_group(97);a_scenery_destruction_zone(372, 100);a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_552\"), 10, false); mission.trig.func[16]=nil;",
-            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_614\"));a_set_flag_value(3, 0);",
-            [18] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_615\"));a_set_flag_value(3, 0);",
+            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_614\"));a_set_flag_value(3, 0);a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_633\"), 10, false);",
+            [18] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_615\"));a_set_flag_value(3, 0);a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_634\"), 10, false);",
         }, -- end of ["actions"]
         ["events"] = 
         {
@@ -148,7 +148,7 @@ mission =
             }, -- end of ["func"]
         }, -- end of ["red"]
     }, -- end of ["result"]
-    ["maxDictId"] = 632,
+    ["maxDictId"] = 634,
     ["pictureFileNameN"] = 
     {
     }, -- end of ["pictureFileNameN"]
@@ -436,7 +436,7 @@ mission =
             }, -- end of [12]
             [13] = 
             {
-                ["y"] = -100855.96085714,
+                ["y"] = -84474.993999998,
                 ["radius"] = 3048,
                 ["zoneId"] = 418,
                 ["color"] = 
@@ -446,7 +446,7 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["x"] = -183330.74000001,
+                ["x"] = -211865.32742858,
                 ["hidden"] = false,
                 ["name"] = "Tankers north",
             }, -- end of [13]
@@ -470,9 +470,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = 14644.368285715,
-        ["zoom"] = 1333874,
-        ["centerX"] = -351528.08114287,
+        ["centerY"] = -74439.336,
+        ["zoom"] = 2567,
+        ["centerX"] = -359508.52214287,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -3869,7 +3869,7 @@ mission =
                                         ["alt"] = 953,
                                         ["hardpoint_racks"] = true,
                                         ["alt_type"] = "BARO",
-                                        ["livery_id"] = "F16XL",
+                                        ["livery_id"] = "M2KC_TM2011",
                                         ["skill"] = "Client",
                                         ["parking"] = "28",
                                         ["speed"] = 138.88888888889,
@@ -8624,10 +8624,10 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 274.45186034086,
+                                            ["ETA"] = 313.74008871626,
                                             ["ETA_locked"] = false,
-                                            ["y"] = -166674.23457143,
-                                            ["x"] = -262987.95,
+                                            ["y"] = -171760.44942857,
+                                            ["x"] = -269168.78828572,
                                             ["name"] = "DictKey_WptName_136",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -8649,7 +8649,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 49,
-                                        ["psi"] = -2.9351177606937,
+                                        ["psi"] = -3.0789364953791,
                                         ["parking_id"] = "D14",
                                         ["x"] = -225679.28125,
                                         ["name"] = "DictKey_UnitName_134",
@@ -8689,7 +8689,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = -174488.90625,
-                                        ["heading"] = 2.9351177606937,
+                                        ["heading"] = 3.0789364953791,
                                         ["callsign"] = 100,
                                         ["onboard_num"] = "010",
                                     }, -- end of [1]
@@ -8704,7 +8704,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 52,
-                                        ["psi"] = -2.9351177606937,
+                                        ["psi"] = -3.0789364953791,
                                         ["parking_id"] = "D17",
                                         ["x"] = -225756.17207304,
                                         ["name"] = "DictKey_UnitName_142",
@@ -8744,7 +8744,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = -174418.12183539,
-                                        ["heading"] = 2.9351177606937,
+                                        ["heading"] = 3.0789364953791,
                                         ["callsign"] = 102,
                                         ["onboard_num"] = "012",
                                     }, -- end of [2]
@@ -8759,7 +8759,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 83,
-                                        ["psi"] = -2.9351177606937,
+                                        ["psi"] = -3.0789364953791,
                                         ["parking_id"] = "D16",
                                         ["x"] = -225784.66016626,
                                         ["name"] = "DictKey_UnitName_229",
@@ -8799,7 +8799,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = -174485.6993844,
-                                        ["heading"] = 2.9351177606937,
+                                        ["heading"] = 3.0789364953791,
                                         ["callsign"] = 107,
                                         ["onboard_num"] = "017",
                                     }, -- end of [3]
@@ -9178,7 +9178,7 @@ mission =
                                         }, -- end of [1]
                                         [2] = 
                                         {
-                                            ["alt"] = 1766.0112,
+                                            ["alt"] = 1932,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
                                             ["speed"] = 138.88888888889,
@@ -9208,10 +9208,10 @@ mission =
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["ETA"] = 460.55315299548,
+                                            ["ETA"] = 406.18436983288,
                                             ["ETA_locked"] = false,
-                                            ["y"] = -16837.094571436,
-                                            ["x"] = -263817.50942857,
+                                            ["y"] = 17941.715142858,
+                                            ["x"] = -278416.10828572,
                                             ["name"] = "DictKey_WptName_147",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -9233,7 +9233,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 53,
-                                        ["psi"] = 2.2398479102879,
+                                        ["psi"] = 2.8651673507187,
                                         ["parking_id"] = "02",
                                         ["x"] = -224143.265625,
                                         ["name"] = "DictKey_UnitName_144",
@@ -9273,7 +9273,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = 33338.26953125,
-                                        ["heading"] = -2.2398479102879,
+                                        ["heading"] = -2.8651673507187,
                                         ["callsign"] = 100,
                                         ["onboard_num"] = "010",
                                     }, -- end of [1]
@@ -9288,7 +9288,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 54,
-                                        ["psi"] = 2.2398479102879,
+                                        ["psi"] = 2.8651673507187,
                                         ["parking_id"] = "03",
                                         ["x"] = -224167.59375,
                                         ["name"] = "DictKey_UnitName_145",
@@ -9328,7 +9328,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = 33337.65625,
-                                        ["heading"] = -2.2398479102879,
+                                        ["heading"] = -2.8651673507187,
                                         ["callsign"] = 101,
                                         ["onboard_num"] = "011",
                                     }, -- end of [2]
@@ -9343,7 +9343,7 @@ mission =
                                         ["speed"] = 138.88888888889,
                                         ["type"] = "MiG-21Bis",
                                         ["unitId"] = 81,
-                                        ["psi"] = 2.2398479102879,
+                                        ["psi"] = 2.8651673507187,
                                         ["parking_id"] = "04",
                                         ["x"] = -224191.8125,
                                         ["name"] = "DictKey_UnitName_227",
@@ -9383,7 +9383,7 @@ mission =
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
                                         ["y"] = 33337.16015625,
-                                        ["heading"] = -2.2398479102879,
+                                        ["heading"] = -2.8651673507187,
                                         ["callsign"] = 105,
                                         ["onboard_num"] = "015",
                                     }, -- end of [3]
@@ -10782,6 +10782,19 @@ mission =
                         [2] = "",
                     }, -- end of ["ai_task"]
                 }, -- end of [2]
+                [3] = 
+                {
+                    ["seconds"] = 10,
+                    ["clearview"] = false,
+                    ["KeyDict_text"] = "DictKey_ActionText_633",
+                    ["text"] = "DictKey_ActionText_633",
+                    ["predicate"] = "a_out_text_delay",
+                    ["ai_task"] = 
+                    {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                }, -- end of [3]
             }, -- end of ["actions"]
             ["comment"] = "tanker teleport north",
         }, -- end of [17]
@@ -10828,10 +10841,23 @@ mission =
                     ["predicate"] = "a_set_flag_value",
                     ["probability"] = 100,
                 }, -- end of [2]
+                [3] = 
+                {
+                    ["seconds"] = 10,
+                    ["clearview"] = false,
+                    ["KeyDict_text"] = "DictKey_ActionText_634",
+                    ["text"] = "DictKey_ActionText_634",
+                    ["predicate"] = "a_out_text_delay",
+                    ["ai_task"] = 
+                    {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                }, -- end of [3]
             }, -- end of ["actions"]
         }, -- end of [18]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 120739,
+    ["currentKey"] = 123507,
     ["start_time"] = 64800,
     ["forcedOptions"] = 
     {
