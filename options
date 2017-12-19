@@ -119,7 +119,7 @@ options =
             ["CPLocalList_A-10A"] = "default",
             ["CPLocalList_Su-27"] = "English Blue",
             ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_Su-33"] = "default",
+            ["CPLocalList_Su-33"] = "English Blue",
         }, -- end of ["FC3"]
         ["TF-51D"] = 
         {
