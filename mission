@@ -13,7 +13,7 @@ mission =
     {
         ["actions"] = 
         {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_478\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_608\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_479\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_259\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_234\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_434\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_235\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_246\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_609\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_855\"));",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_478\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_608\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_479\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_259\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_234\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_434\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_235\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_246\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_609\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_915\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_914\"));",
             [2] = "a_add_radio_item(getValueDictByKey(\"DictKey_ActionRadioText_197\"), 1, 1);a_add_radio_item(getValueDictByKey(\"DictKey_ActionRadioText_236\"), 2, 1);a_add_radio_item(getValueDictByKey(\"DictKey_ActionRadioText_645\"), 4, 1);",
             [3] = "a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_211\"), 10, false);a_end_mission(\"red\", getValueDictByKey(\"DictKey_ActionText_210\"));",
             [4] = "a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_238\"), 10, false);a_do_script(getValueDictByKey(\"DictKey_ActionText_237\"));a_set_flag_value(2, 0);",
@@ -144,7 +144,7 @@ mission =
             }, -- end of ["func"]
         }, -- end of ["red"]
     }, -- end of ["result"]
-    ["maxDictId"] = 913,
+    ["maxDictId"] = 915,
     ["pictureFileNameN"] = 
     {
     }, -- end of ["pictureFileNameN"]
@@ -352,7 +352,7 @@ mission =
             }, -- end of [7]
             [8] = 
             {
-                ["y"] = -77592.038285715,
+                ["y"] = -76374.721714286,
                 ["radius"] = 457.2,
                 ["zoneId"] = 278,
                 ["color"] = 
@@ -362,17 +362,33 @@ mission =
                     [3] = 1,
                     [4] = 0.15,
                 }, -- end of ["color"]
-                ["x"] = -359672.4075357,
+                ["x"] = -359905.4095357,
                 ["hidden"] = false,
-                ["name"] = "ship",
+                ["name"] = "vinson",
             }, -- end of [8]
+            [9] = 
+            {
+                ["y"] = -76859.096285717,
+                ["radius"] = 457.2,
+                ["zoneId"] = 324,
+                ["color"] = 
+                {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["x"] = -359116.18067858,
+                ["hidden"] = false,
+                ["name"] = "Kuznecow",
+            }, -- end of [9]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = -40293.664285717,
-        ["zoom"] = 1104153,
-        ["centerX"] = -305731.80367858,
+        ["centerY"] = -75294.654285716,
+        ["zoom"] = 16643,
+        ["centerX"] = -358257.87739286,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -15896,14 +15912,25 @@ mission =
                 [11] = 
                 {
                     ["predicate"] = "a_do_script",
-                    ["text"] = "DictKey_ActionText_855",
-                    ["KeyDict_text"] = "DictKey_ActionText_855",
+                    ["text"] = "DictKey_ActionText_915",
+                    ["KeyDict_text"] = "DictKey_ActionText_915",
                     ["ai_task"] = 
                     {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
                 }, -- end of [11]
+                [12] = 
+                {
+                    ["KeyDict_text"] = "DictKey_ActionText_914",
+                    ["text"] = "DictKey_ActionText_914",
+                    ["predicate"] = "a_do_script",
+                    ["ai_task"] = 
+                    {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                }, -- end of [12]
             }, -- end of ["actions"]
             ["comment"] = "load_scripts",
         }, -- end of [1]
@@ -16835,7 +16862,7 @@ mission =
             ["predicate"] = "triggerOnce",
         }, -- end of [17]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 195102,
+    ["currentKey"] = 199486,
     ["start_time"] = 64800,
     ["forcedOptions"] = 
     {
