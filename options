@@ -102,10 +102,17 @@ options =
         ["M-2000C"] = 
         {
             ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "default",
-            ["PPA_TOTPAR"] = false,
+            ["CPLocalList"] = "EN by gospadin",
+            ["PPA_TOTPAR"] = true,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
+        ["F-5E-3"] = 
+        {
+            ["JoystickMode"] = 0,
+            ["SightCamera"] = 0,
+            ["CPLocalList"] = "default",
+            ["aiHelper"] = false,
+        }, -- end of ["F-5E-3"]
         ["A-10C"] = 
         {
             ["CPLocalList"] = "default",
@@ -127,6 +134,10 @@ options =
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
+        ["AJS37"] = 
+        {
+            ["CPLocalList"] = "English",
+        }, -- end of ["AJS37"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
