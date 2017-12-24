@@ -9,14 +9,14 @@ options =
         ["f11_free_camera"] = true,
         ["F2_view_effects"] = 1,
         ["f10_awacs"] = true,
-        ["Coordinate_Display"] = "Lat Long",
+        ["Coordinate_Display"] = "MGRS",
         ["accidental_failures"] = false,
         ["autologin"] = true,
         ["force_feedback_enabled"] = false,
         ["collect_stat"] = false,
         ["show_pilot_body"] = false,
         ["synchronize_controls"] = false,
-        ["chat_window_at_start"] = true,
+        ["chat_window_at_start"] = false,
     }, -- end of ["miscellaneous"]
     ["difficulty"] = 
     {
@@ -29,9 +29,9 @@ options =
         ["optionsView"] = "optview_all",
         ["permitCrash"] = true,
         ["immortal"] = false,
-        ["easyCommunication"] = false,
-        ["cockpitVisualRM"] = false,
-        ["padlock"] = true,
+        ["easyCommunication"] = true,
+        ["cockpitVisualRM"] = true,
+        ["padlock"] = false,
         ["reports"] = true,
         ["hideStick"] = false,
         ["radio"] = true,
@@ -106,13 +106,6 @@ options =
             ["PPA_TOTPAR"] = true,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
-        ["F-5E-3"] = 
-        {
-            ["JoystickMode"] = 0,
-            ["SightCamera"] = 0,
-            ["CPLocalList"] = "default",
-            ["aiHelper"] = false,
-        }, -- end of ["F-5E-3"]
         ["A-10C"] = 
         {
             ["CPLocalList"] = "default",
@@ -128,16 +121,38 @@ options =
             ["CPLocalList_MiG-29G"] = "default",
             ["CPLocalList_Su-33"] = "English Blue",
         }, -- end of ["FC3"]
+        ["AV8BNA"] = 
+        {
+            ["UNI_ALIGNED"] = false,
+            ["CPLocalList"] = "default",
+            ["PPA_TOTPAR"] = false,
+            ["UNI_NODRIFT"] = false,
+        }, -- end of ["AV8BNA"]
+        ["F-5E-3"] = 
+        {
+            ["JoystickMode"] = 0,
+            ["SightCamera"] = 0,
+            ["CPLocalList"] = "default",
+            ["aiHelper"] = false,
+        }, -- end of ["F-5E-3"]
+        ["AJS37"] = 
+        {
+            ["CPLocalList"] = "English",
+        }, -- end of ["AJS37"]
         ["TF-51D"] = 
         {
             ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
-        ["AJS37"] = 
+        ["CA"] = 
         {
-            ["CPLocalList"] = "English",
-        }, -- end of ["AJS37"]
+            ["kompass_options"] = 1,
+            ["ground_target_info"] = true,
+            ["ground_aim_helper"] = true,
+            ["ground_platform_shake"] = false,
+            ["ground_automatic"] = true,
+        }, -- end of ["CA"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
