@@ -87,7 +87,7 @@ options =
         ["SSAO"] = 0,
         ["motionBlur"] = 0,
         ["sync"] = false,
-        ["HDR"] = 1,
+        ["HDR"] = 0,
         ["preloadRadius"] = 150000,
         ["visibRange"] = "High",
         ["textures"] = 2,
@@ -102,8 +102,8 @@ options =
         ["M-2000C"] = 
         {
             ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "EN by gospadin",
-            ["PPA_TOTPAR"] = true,
+            ["CPLocalList"] = "default",
+            ["PPA_TOTPAR"] = false,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
         ["A-10C"] = 

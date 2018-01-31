@@ -1,8 +1,8 @@
 mapResource = 
 {
     ["ResKey_Action_484"] = "Dismount.lua",
-    ["ResKey_Action_476"] = "CSAR.lua",
-    ["ResKey_Action_477"] = "CSAR.lua",
+    ["ResKey_Action_478"] = "beacon.ogg",
+    ["ResKey_ImageBriefing_946"] = "CAS Map.jpg",
     ["ResKey_Action_485"] = "Dismount.lua",
     ["ResKey_Action_782"] = "staticSound.ogg",
     ["ResKey_Action_480"] = "CSAR.ogg",
@@ -17,8 +17,8 @@ mapResource =
     ["ResKey_Action_847"] = "reinforcements4.lua",
     ["ResKey_Action_824"] = "staticSound.ogg",
     ["ResKey_Action_881"] = "bombInZone.lua",
-    ["ResKey_Action_478"] = "beacon.ogg",
-    ["ResKey_ImageBriefing_946"] = "CAS Map.jpg",
+    ["ResKey_Action_476"] = "CSAR.lua",
+    ["ResKey_Action_477"] = "CSAR.lua",
     ["ResKey_Action_809"] = "staticSound.ogg",
     ["ResKey_ImageBriefing_947"] = "Mirage Flight.jpg",
 } -- end of mapResource
