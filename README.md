@@ -82,3 +82,28 @@ Liveries.zip
             ├── M2KC_7T_DD.dds
             └── Thumbs.db
 ```
+
+## Hacked NVGs for old flying machines
+
+Pretty sure this hack just brings in the A-10C NVGs to other modules.  This could break your game, so back up the files you're modifying, back up your existing binds, and NO REFUNDS.  [OvGME](http://www.ovoid.org/ovgme/) is recommended.  There are three files to modify:
+
+**C:\Program Files (x86)\Steam\steamapps\common\DCSWorld\Mods\aircraft\M-2000C\Input\M-2000C\keyboard\default.lua**
+```
+    -- Cockpit Displays & Illumination
+	{down = iCommandViewNightVisionGogglesOn , name = _('Night Vision Goggles') , category = _('Sensors')},
+	{pressed = iCommandPlane_Helmet_Brightess_Up , name = _('Night Vision Goggles Gain Up') , category = _('Sensors')},
+	{pressed = iCommandPlane_Helmet_Brightess_Down, name = _('Night Vision Goggles Gain Down'), category = _('Sensors')},
+```
+
+
+**C:\Program Files (x86)\Steam\steamapps\common\DCSWorld\Mods\aircraft\M-2000C\Cockpit\devices.lua**
+```
+-------DEVICE ID-------
+devices["HELMET_DEVICE"]        = counter() -- 30
+```
+
+**C:\Program Files (x86)\Steam\steamapps\common\DCSWorld\Mods\aircraft\M-2000C\Cockpit\device_init.lua**
+```
+creators    = {}
+creators[devices.HELMET_DEVICE]	    = {"avNightVisionGoggles"}
+```
