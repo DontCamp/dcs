@@ -55,7 +55,7 @@ options =
         ["pixel_density"] = 1.2,
         ["box_mouse_cursor"] = true,
         ["custom_IPD_enable"] = false,
-        ["enable"] = true,
+        ["enable"] = false,
         ["custom_IPD"] = 63.5,
         ["hand_controllers"] = false,
     }, -- end of ["VR"]
