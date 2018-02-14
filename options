@@ -52,25 +52,28 @@ options =
     ["VR"] = 
     {
         ["use_mouse"] = true,
-        ["enable"] = true,
-        ["box_mouse_cursor"] = true,
         ["pixel_density"] = 1.5,
+        ["box_mouse_cursor"] = true,
+        ["custom_IPD_enable"] = false,
+        ["enable"] = false,
+        ["custom_IPD"] = 63.5,
+        ["hand_controllers"] = false,
     }, -- end of ["VR"]
     ["graphics"] = 
     {
-        ["LensEffects"] = 2,
+        ["preloadRadius"] = 79200,
         ["heatBlr"] = 0,
         ["anisotropy"] = 4,
         ["water"] = 2,
         ["scaleGui"] = false,
-        ["outputGamma"] = 1,
+        ["visibRange"] = "High",
         ["treesVisibility"] = 1500,
-        ["aspect"] = 1.3333333333333,
+        ["aspect"] = 1.7777777777778,
         ["lights"] = 2,
         ["shadows"] = 2,
         ["MSAA"] = 0,
         ["civTraffic"] = "",
-        ["clutterMaxDistance"] = 0,
+        ["forestDistanceFactor"] = 0.5,
         ["cockpitGI"] = 0,
         ["terrainTextures"] = "max",
         ["multiMonitorSetup"] = "1camera",
@@ -80,16 +83,17 @@ options =
         ["disableAero"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
+        ["flatTerrainShadows"] = 1,
+        ["height"] = 1080,
         ["useDeferredShading"] = 0,
-        ["flatTerrainShadows"] = 0,
-        ["height"] = 1440,
+        ["HDR"] = 0,
         ["effects"] = 3,
         ["SSAO"] = 0,
         ["motionBlur"] = 0,
         ["sync"] = false,
-        ["HDR"] = 0,
-        ["preloadRadius"] = 150000,
-        ["visibRange"] = "High",
+        ["clutterMaxDistance"] = 0,
+        ["LensEffects"] = 2,
+        ["outputGamma"] = 1,
         ["textures"] = 2,
         ["width"] = 1920,
     }, -- end of ["graphics"]
@@ -102,7 +106,7 @@ options =
         ["M-2000C"] = 
         {
             ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "default",
+            ["CPLocalList"] = "EN by gospadin",
             ["PPA_TOTPAR"] = false,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
@@ -119,7 +123,7 @@ options =
             ["CPLocalList_A-10A"] = "default",
             ["CPLocalList_Su-27"] = "English Blue",
             ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_Su-33"] = "English Blue",
+            ["CPLocalList_Su-33"] = "English Gray",
         }, -- end of ["FC3"]
         ["AV8BNA"] = 
         {
@@ -174,7 +178,7 @@ options =
         {
             ["mirrors"] = true,
             ["reflections"] = false,
-            ["avionics"] = 3,
+            ["avionics"] = 4,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options
