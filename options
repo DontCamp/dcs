@@ -52,7 +52,7 @@ options =
     ["VR"] = 
     {
         ["use_mouse"] = true,
-        ["pixel_density"] = 1.2,
+        ["pixel_density"] = 1.5,
         ["box_mouse_cursor"] = true,
         ["custom_IPD_enable"] = false,
         ["enable"] = false,
@@ -83,7 +83,7 @@ options =
         ["disableAero"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
-        ["flatTerrainShadows"] = 0,
+        ["flatTerrainShadows"] = 1,
         ["height"] = 1080,
         ["useDeferredShading"] = 0,
         ["HDR"] = 0,
@@ -123,7 +123,7 @@ options =
             ["CPLocalList_A-10A"] = "default",
             ["CPLocalList_Su-27"] = "English Blue",
             ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_Su-33"] = "English Blue",
+            ["CPLocalList_Su-33"] = "English Gray",
         }, -- end of ["FC3"]
         ["AV8BNA"] = 
         {
