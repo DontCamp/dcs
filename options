@@ -146,7 +146,7 @@ options =
     ["format"] = 1,
     ["sound"] = 
     {
-        ["hear_in_helmet"] = false,
+        ["hear_in_helmet"] = true,
         ["headphones"] = 100,
         ["cockpit"] = 100,
         ["GBreathEffect"] = true,
