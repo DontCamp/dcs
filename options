@@ -110,10 +110,10 @@ options =
         }, -- end of ["MiG-21Bis"]
         ["M-2000C"] = 
         {
-            ["UNI_ALIGNED"] = false,
+            ["UNI_ALIGNED"] = true,
             ["CPLocalList"] = "default",
             ["PPA_TOTPAR"] = false,
-            ["UNI_NODRIFT"] = false,
+            ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
         ["FC3"] = 
         {
@@ -122,7 +122,7 @@ options =
             ["CPLocalList_MiG-29A"] = "default",
             ["CPLocalList_Su-25"] = "default",
             ["CPLocalList_A-10A"] = "default",
-            ["CPLocalList_Su-27"] = "default",
+            ["CPLocalList_Su-27"] = "English Gray",
             ["CPLocalList_MiG-29G"] = "default",
             ["CPLocalList_Su-33"] = "English Gray",
         }, -- end of ["FC3"]
