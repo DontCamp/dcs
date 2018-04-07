@@ -147,10 +147,10 @@ options =
     ["sound"] = 
     {
         ["hear_in_helmet"] = true,
-        ["headphones"] = 100,
+        ["headphones"] = 17,
         ["cockpit"] = 100,
         ["radioSpeech"] = true,
-        ["world"] = 7,
+        ["world"] = 5,
         ["volume"] = 38,
         ["GBreathEffect"] = true,
         ["music"] = 0,
