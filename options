@@ -61,7 +61,7 @@ options =
     }, -- end of ["VR"]
     ["graphics"] = 
     {
-        ["preloadRadius"] = 100000,
+        ["preloadRadius"] = 50000,
         ["heatBlr"] = 0,
         ["anisotropy"] = 3,
         ["water"] = 2,
@@ -71,14 +71,14 @@ options =
         ["aspect"] = 1.6,
         ["lights"] = 2,
         ["HDR"] = 0,
-        ["MSAA"] = 3,
+        ["MSAA"] = 2,
         ["civTraffic"] = "",
         ["forestDistanceFactor"] = 1,
         ["cockpitGI"] = 0,
         ["terrainTextures"] = "max",
         ["multiMonitorSetup"] = "1camera",
         ["shadowTree"] = false,
-        ["chimneySmokeDensity"] = 10,
+        ["chimneySmokeDensity"] = 0,
         ["fullScreen"] = false,
         ["disableAero"] = true,
         ["DOF"] = 0,
@@ -111,7 +111,7 @@ options =
         ["M-2000C"] = 
         {
             ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "default",
+            ["CPLocalList"] = "EN by gospadin",
             ["PPA_TOTPAR"] = false,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
@@ -151,7 +151,7 @@ options =
         ["cockpit"] = 100,
         ["radioSpeech"] = true,
         ["world"] = 5,
-        ["volume"] = 38,
+        ["volume"] = 91,
         ["GBreathEffect"] = true,
         ["music"] = 0,
         ["subtitles"] = true,
