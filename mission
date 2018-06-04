@@ -214,9 +214,9 @@ mission =
     }, -- end of ["triggers"]
     ["map"] = 
     {
-        ["centerY"] = 4314.8271428534,
-        ["zoom"] = 640226,
-        ["centerX"] = -367254.33914285,
+        ["centerY"] = -37487.846285718,
+        ["zoom"] = 192533,
+        ["centerX"] = -358394.71642856,
     }, -- end of ["map"]
     ["coalitions"] = 
     {
@@ -1794,7 +1794,7 @@ mission =
                                             ["alt"] = 4572,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
-                                            ["speed"] = 192.70833333333,
+                                            ["speed"] = 172.5,
                                             ["task"] = 
                                             {
                                                 ["id"] = "ComboTask",
@@ -1804,20 +1804,20 @@ mission =
                                                     {
                                                         [1] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 1,
                                                             ["auto"] = true,
                                                             ["id"] = "Tanker",
-                                                            ["number"] = 1,
+                                                            ["enabled"] = true,
                                                             ["params"] = 
                                                             {
                                                             }, -- end of ["params"]
                                                         }, -- end of [1]
                                                         [2] = 
                                                         {
-                                                            ["enabled"] = true,
+                                                            ["number"] = 2,
                                                             ["auto"] = true,
                                                             ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
+                                                            ["enabled"] = true,
                                                             ["params"] = 
                                                             {
                                                                 ["action"] = 
@@ -1826,30 +1826,33 @@ mission =
                                                                     ["params"] = 
                                                                     {
                                                                         ["type"] = 4,
-                                                                        ["frequency"] = 1088000000,
-                                                                        ["callsign"] = "TKR",
+                                                                        ["AA"] = true,
+                                                                        ["callsign"] = "TEX",
+                                                                        ["system"] = 4,
                                                                         ["channel"] = 1,
                                                                         ["modeChannel"] = "X",
                                                                         ["bearing"] = true,
-                                                                        ["system"] = 4,
+                                                                        ["frequency"] = 1088000000,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [2]
                                                         [3] = 
                                                         {
-                                                            ["number"] = 3,
+                                                            ["enabled"] = true,
                                                             ["auto"] = false,
                                                             ["id"] = "WrappedAction",
-                                                            ["enabled"] = true,
+                                                            ["number"] = 3,
                                                             ["params"] = 
                                                             {
                                                                 ["action"] = 
                                                                 {
-                                                                    ["id"] = "SetInvisible",
+                                                                    ["id"] = "SetFrequency",
                                                                     ["params"] = 
                                                                     {
-                                                                        ["value"] = true,
+                                                                        ["power"] = 10,
+                                                                        ["modulation"] = 0,
+                                                                        ["frequency"] = 251000000,
                                                                     }, -- end of ["params"]
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
@@ -1864,7 +1867,7 @@ mission =
                                                             {
                                                                 ["action"] = 
                                                                 {
-                                                                    ["id"] = "SetImmortal",
+                                                                    ["id"] = "SetInvisible",
                                                                     ["params"] = 
                                                                     {
                                                                         ["value"] = true,
@@ -1872,14 +1875,32 @@ mission =
                                                                 }, -- end of ["action"]
                                                             }, -- end of ["params"]
                                                         }, -- end of [4]
+                                                        [5] = 
+                                                        {
+                                                            ["number"] = 5,
+                                                            ["auto"] = false,
+                                                            ["id"] = "WrappedAction",
+                                                            ["enabled"] = true,
+                                                            ["params"] = 
+                                                            {
+                                                                ["action"] = 
+                                                                {
+                                                                    ["id"] = "SetImmortal",
+                                                                    ["params"] = 
+                                                                    {
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [5]
                                                     }, -- end of ["tasks"]
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
                                             ["ETA"] = 0,
                                             ["ETA_locked"] = true,
-                                            ["y"] = -59303.38914286,
-                                            ["x"] = -355042.92,
+                                            ["y"] = -45299.185142861,
+                                            ["x"] = -355066.64599999,
                                             ["name"] = "DictKey_WptName_170",
                                             ["formation_template"] = "",
                                             ["speed_locked"] = true,
@@ -1889,7 +1910,7 @@ mission =
                                             ["alt"] = 4572,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
-                                            ["speed"] = 192.70833333333,
+                                            ["speed"] = 172.5,
                                             ["task"] = 
                                             {
                                                 ["id"] = "ComboTask",
@@ -1928,7 +1949,7 @@ mission =
                                             ["alt"] = 4572,
                                             ["action"] = "Turning Point",
                                             ["alt_type"] = "BARO",
-                                            ["speed"] = 192.70833333333,
+                                            ["speed"] = 172.5,
                                             ["task"] = 
                                             {
                                                 ["id"] = "ComboTask",
@@ -1958,25 +1979,26 @@ mission =
                                     {
                                         ["alt"] = 4572,
                                         ["alt_type"] = "BARO",
+                                        ["livery_id"] = "default",
                                         ["skill"] = "High",
-                                        ["speed"] = 192.70833333333,
-                                        ["type"] = "KC135BDA",
+                                        ["speed"] = 172.5,
+                                        ["type"] = "KC130",
                                         ["unitId"] = 62,
-                                        ["psi"] = 1.572796324128,
-                                        ["y"] = -59303.38914286,
-                                        ["x"] = -355042.92,
+                                        ["psi"] = 1.5716055455242,
+                                        ["y"] = -45299.185142861,
+                                        ["x"] = -355066.64599999,
                                         ["name"] = "DictKey_UnitName_169",
                                         ["payload"] = 
                                         {
                                             ["pylons"] = 
                                             {
                                             }, -- end of ["pylons"]
-                                            ["fuel"] = 90700,
+                                            ["fuel"] = 20830,
                                             ["flare"] = 60,
                                             ["chaff"] = 120,
                                             ["gun"] = 100,
                                         }, -- end of ["payload"]
-                                        ["heading"] = -1.572796324128,
+                                        ["heading"] = -1.5716055455242,
                                         ["callsign"] = 
                                         {
                                             [1] = 1,
@@ -1987,8 +2009,8 @@ mission =
                                         ["onboard_num"] = "020",
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["y"] = -59303.38914286,
-                                ["x"] = -355042.92,
+                                ["y"] = -45299.185142861,
+                                ["x"] = -355066.64599999,
                                 ["name"] = "DictKey_GroupName_168",
                                 ["communication"] = true,
                                 ["start_time"] = 0,
@@ -8796,9 +8818,10 @@ mission =
                     ["clearview"] = true,
                 }, -- end of [2]
             }, -- end of ["actions"]
+            ["predicate"] = "triggerOnce",
         }, -- end of [6]
     }, -- end of ["trigrules"]
-    ["currentKey"] = 5364,
+    ["currentKey"] = 7328,
     ["start_time"] = 36000,
     ["forcedOptions"] = 
     {
