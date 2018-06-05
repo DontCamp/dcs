@@ -107,8 +107,8 @@ options =
             ["kompass_options"] = 1,
             ["ground_target_info"] = true,
             ["ground_aim_helper"] = true,
-            ["ground_platform_shake"] = false,
             ["ground_automatic"] = true,
+            ["ground_platform_shake"] = false,
         }, -- end of ["CA"]
         ["P-51D"] = 
         {
@@ -126,11 +126,11 @@ options =
             ["CPLocalList_Su-27"] = "default",
             ["CPLocalList_A-10A"] = "default",
             ["CPLocalList_Su-33"] = "English Blue",
-            ["CPLocalList_MiG-29S"] = "default",
+            ["CPLocalList_F-15C"] = "default",
             ["CPLocalList_MiG-29A"] = "default",
             ["CPLocalList_J-11A"] = "default",
             ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_F-15C"] = "default",
+            ["CPLocalList_MiG-29S"] = "default",
         }, -- end of ["FC3"]
         ["F/A-18C"] = 
         {
@@ -139,11 +139,11 @@ options =
         ["UH-1H"] = 
         {
             ["UHRudderTrimmer"] = false,
-            ["autoPilot"] = true,
+            ["UHTrimmingMethod"] = 0,
             ["UH1HCockpitShake"] = 50,
             ["CPLocalList"] = "default",
             ["weapTooltips"] = true,
-            ["UHTrimmingMethod"] = 0,
+            ["autoPilot"] = true,
         }, -- end of ["UH-1H"]
         ["Ka-50"] = 
         {
