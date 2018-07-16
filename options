@@ -4,16 +4,16 @@ options =
     ["miscellaneous"] = 
     {
         ["headmove"] = false,
-        ["TrackIR_external_views"] = false,
+        ["TrackIR_external_views"] = true,
         ["f5_nearest_ac"] = true,
         ["f11_free_camera"] = true,
         ["F2_view_effects"] = 0,
         ["f10_awacs"] = true,
-        ["Coordinate_Display"] = "Lat Long Decimal",
+        ["Coordinate_Display"] = "Lat Long",
         ["accidental_failures"] = false,
         ["autologin"] = true,
         ["force_feedback_enabled"] = true,
-        ["collect_stat"] = true,
+        ["collect_stat"] = false,
         ["chat_window_at_start"] = true,
         ["synchronize_controls"] = false,
         ["show_pilot_body"] = false,
@@ -27,17 +27,17 @@ options =
         ["setGlobal"] = true,
         ["birds"] = 0,
         ["optionsView"] = "optview_all",
-        ["permitCrash"] = false,
+        ["permitCrash"] = true,
         ["immortal"] = false,
-        ["cockpitStatusBarAllowed"] = true,
+        ["cockpitStatusBarAllowed"] = false,
         ["cockpitVisualRM"] = false,
         ["fuel"] = false,
         ["reports"] = true,
         ["hideStick"] = false,
-        ["radio"] = true,
+        ["radio"] = false,
         ["map"] = true,
         ["spectatorExternalViews"] = true,
-        ["avionicsLanguage"] = "english",
+        ["avionicsLanguage"] = "native",
         ["userSnapView"] = true,
         ["tips"] = true,
         ["userMarks"] = true,
@@ -56,49 +56,49 @@ options =
         ["custom_IPD"] = 63.5,
         ["custom_IPD_enable"] = false,
         ["enable"] = true,
-        ["prefer_built_in_audio"] = true,
-        ["box_mouse_cursor"] = false,
+        ["prefer_built_in_audio"] = false,
+        ["box_mouse_cursor"] = true,
         ["pixel_density"] = 1,
     }, -- end of ["VR"]
     ["graphics"] = 
     {
         ["rainDroplets"] = 0,
-        ["preloadRadius"] = 50000,
+        ["preloadRadius"] = 100000,
         ["heatBlr"] = 0,
-        ["anisotropy"] = 3,
+        ["anisotropy"] = 4,
         ["water"] = 1,
         ["motionBlur"] = 0,
-        ["outputGamma"] = 2,
-        ["treesVisibility"] = 1500,
-        ["aspect"] = 1.6,
+        ["outputGamma"] = 2.2,
+        ["treesVisibility"] = 5000,
+        ["aspect"] = 1.6666666666,
         ["lights"] = 2,
         ["HDR"] = 0,
-        ["MSAA"] = 2,
+        ["MSAA"] = 0,
         ["SSAA"] = 0,
-        ["height"] = 800,
-        ["forestDistanceFactor"] = 1,
+        ["height"] = 768,
+        ["forestDistanceFactor"] = 0.5,
         ["cockpitGI"] = 0,
-        ["terrainTextures"] = "max",
+        ["terrainTextures"] = "min",
         ["multiMonitorSetup"] = "1camera",
         ["shadowTree"] = false,
         ["chimneySmokeDensity"] = 0,
         ["fullScreen"] = false,
-        ["disableAero"] = true,
+        ["disableAero"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
         ["flatTerrainShadows"] = 1,
         ["width"] = 1280,
-        ["shadows"] = 2,
-        ["textures"] = 2,
+        ["shadows"] = 3,
+        ["textures"] = 1,
         ["effects"] = 3,
         ["SSAO"] = 0,
-        ["useDeferredShading"] = 0,
+        ["useDeferredShading"] = 1,
         ["sync"] = false,
         ["LensEffects"] = 0,
-        ["visibRange"] = "High",
+        ["visibRange"] = "Medium",
         ["scaleGui"] = false,
-        ["clutterMaxDistance"] = 0,
-        ["civTraffic"] = "",
+        ["clutterMaxDistance"] = 750,
+        ["civTraffic"] = "low",
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
@@ -108,11 +108,15 @@ options =
         }, -- end of ["Su-25T"]
         ["M-2000C"] = 
         {
-            ["UNI_ALIGNED"] = true,
-            ["CPLocalList"] = "EN by gospadin",
+            ["UNI_ALIGNED"] = false,
+            ["CPLocalList"] = "default",
             ["PPA_TOTPAR"] = false,
-            ["UNI_NODRIFT"] = true,
+            ["UNI_NODRIFT"] = false,
         }, -- end of ["M-2000C"]
+        ["A-10C"] = 
+        {
+            ["CPLocalList"] = "default",
+        }, -- end of ["A-10C"]
         ["FC3"] = 
         {
             ["CPLocalList_Su-25"] = "default",
@@ -127,21 +131,21 @@ options =
         }, -- end of ["FC3"]
         ["F/A-18C"] = 
         {
-            ["abDetent"] = true,
+            ["abDetent"] = 0,
             ["CPLocalList"] = "default",
         }, -- end of ["F/A-18C"]
         ["P-51D"] = 
         {
-            ["assistance"] = 0,
+            ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["P-51D"]
         ["MiG-21Bis"] = 
         {
-            ["Pitot"] = true,
-            ["Engine"] = true,
-            ["Shake"] = 0,
-            ["CPLocalList"] = "english",
+            ["Pitot"] = false,
+            ["Engine"] = false,
+            ["Shake"] = 100,
+            ["CPLocalList"] = "Default",
             ["Reticle"] = false,
             ["Freeze"] = false,
         }, -- end of ["MiG-21Bis"]
@@ -151,38 +155,30 @@ options =
             ["PPA_TOTPAR"] = false,
             ["UNI_NODRIFT"] = false,
         }, -- end of ["AV8BNA"]
+        ["F-5E-3"] = 
+        {
+            ["JoystickMode"] = 0,
+            ["SightCamera"] = 0,
+            ["CPLocalList"] = "default",
+            ["aiHelper"] = false,
+        }, -- end of ["F-5E-3"]
         ["TF-51D"] = 
         {
-            ["assistance"] = 0,
+            ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
-        ["Tacview"] = 
-        {
-            ["tacviewProfilingPeriod"] = 60,
-            ["tacviewHostTelemetryPassword"] = "",
-            ["tacviewRemoteControlPort"] = "42675",
-            ["tacviewDataRecordingEnabled"] = true,
-            ["tacviewRecordClientsSessionsEnabled"] = false,
-            ["tacviewPlaybackDelay"] = 0,
-            ["tacviewRealTimeTelemetryPort"] = "42674",
-            ["tacviewBookmarkShortcut"] = 0,
-            ["tacviewCompressionLevel"] = 1,
-            ["tacviewDebugModeEnabled"] = false,
-            ["tacviewClientTelemetryPassword"] = "",
-            ["tacviewRemoteControlPassword"] = "",
-        }, -- end of ["Tacview"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
     {
-        ["hear_in_helmet"] = true,
-        ["headphones"] = 17,
+        ["hear_in_helmet"] = false,
+        ["headphones"] = 100,
         ["cockpit"] = 100,
-        ["world"] = 39,
+        ["world"] = 100,
         ["radioSpeech"] = true,
         ["GBreathEffect"] = true,
-        ["volume"] = 32,
+        ["volume"] = 12,
         ["headphones_on_external_views"] = true,
         ["music"] = 0,
         ["subtitles"] = true,
