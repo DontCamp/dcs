@@ -1,7 +1,7 @@
 mapResource = 
 {
-    ["ResKey_ImageBriefing_756"] = "1.jpg",
     ["ResKey_Action_859"] = "staticSound.ogg",
+    ["ResKey_ImageBriefing_756"] = "1.jpg",
     ["ResKey_Action_1365"] = "staticSound.ogg",
     ["ResKey_Action_1341"] = "staticSound.ogg",
     ["ResKey_Action_1354"] = "staticSound.ogg",
