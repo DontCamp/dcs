@@ -123,11 +123,11 @@ options =
             ["CPLocalList_Su-27"] = "default",
             ["CPLocalList_A-10A"] = "default",
             ["CPLocalList_Su-33"] = "default",
-            ["CPLocalList_F-15C"] = "default",
+            ["CPLocalList_MiG-29S"] = "default",
             ["CPLocalList_MiG-29A"] = "default",
             ["CPLocalList_J-11A"] = "default",
             ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_MiG-29S"] = "default",
+            ["CPLocalList_F-15C"] = "default",
         }, -- end of ["FC3"]
         ["F/A-18C"] = 
         {
@@ -142,11 +142,11 @@ options =
         }, -- end of ["P-51D"]
         ["MiG-21Bis"] = 
         {
-            ["Shake"] = 100,
-            ["Reticle"] = false,
             ["Pitot"] = false,
-            ["CPLocalList"] = "Default",
             ["Engine"] = false,
+            ["Shake"] = 100,
+            ["CPLocalList"] = "Default",
+            ["Reticle"] = false,
             ["Freeze"] = false,
         }, -- end of ["MiG-21Bis"]
         ["AV8BNA"] = 
@@ -158,8 +158,8 @@ options =
         ["F-5E-3"] = 
         {
             ["JoystickMode"] = 0,
-            ["CPLocalList"] = "default",
             ["SightCamera"] = 0,
+            ["CPLocalList"] = "default",
             ["aiHelper"] = false,
         }, -- end of ["F-5E-3"]
         ["TF-51D"] = 
