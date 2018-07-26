@@ -1,0 +1,137 @@
+dictionary = 
+{
+    ["DictKey_UnitName_52"] = "Pilot #007",
+    ["DictKey_UnitName_60"] = "Pilot #005",
+    ["DictKey_WptName_58"] = "",
+    ["DictKey_ActionText_29"] = "-- explode hostiles\
+groupDespawn('hostiles')",
+    ["DictKey_GroupName_11"] = "dst!",
+    ["DictKey_ActionText_43"] = "restarting the mission?",
+    ["DictKey_GroupName_8"] = "Stennis",
+    ["DictKey_ActionText_23"] = "exploding stuff",
+    ["DictKey_UnitName_32"] = "Unit #003",
+    ["DictKey_GroupName_70"] = "static_hostiles01",
+    ["DictKey_WptName_18"] = "",
+    ["DictKey_GroupName_73"] = "static_hostiles02",
+    ["DictKey_UnitName_12"] = "Pilot #001",
+    ["DictKey_WptName_69"] = "",
+    ["DictKey_UnitName_45"] = "Pilot #003",
+    ["DictKey_GroupName_54"] = "air_hostiles01",
+    ["DictKey_ActionText_24"] = "pcall((groupDespawn('hostiles')))",
+    ["DictKey_UnitName_9"] = "Unit #1",
+    ["DictKey_WptName_13"] = "",
+    ["DictKey_sortie_5"] = "",
+    ["DictKey_GroupName_44"] = "air-hostiles01",
+    ["DictKey_UnitName_83"] = "Pilot #004",
+    ["DictKey_UnitName_47"] = "Pilot #004",
+    ["DictKey_descriptionText_1"] = "",
+    ["DictKey_UnitName_55"] = "Pilot #003",
+    ["DictKey_ActionText_20"] = "spawning stuff",
+    ["DictKey_ActionRadioText_42"] = "end mission",
+    ["DictKey_UnitName_64"] = "Pilot #008",
+    ["DictKey_GroupName_82"] = "airtest",
+    ["DictKey_UnitName_74"] = "static_hostiles01",
+    ["DictKey_WptName_15"] = "",
+    ["DictKey_UnitName_61"] = "Pilot #006",
+    ["DictKey_UnitName_33"] = "Unit #004",
+    ["DictKey_ActionRadioText_22"] = "explode stuff",
+    ["DictKey_ActionText_25"] = "--despawn\
+function groupDespawn (group_string)\
+  for groupName, groupData in pairs(mist.DBs.groupsByName) do\
+    if string.find(string.lower(groupName), group_string) and Group.getByName(groupName) then\
+      local ltd = Group.getByName(groupName)\
+      for index, unit in pairs (ltd:getUnits()) do\
+        local someDeadGuy = mist.Logger:new('exploding', 3)\
+        someDeadGuy:info(unit)\
+        trigger.action.explosion(unit:getPosition().p,100)\
+      end\
+    end\
+  end\
+end",
+    ["DictKey_UnitName_49"] = "Pilot #005",
+    ["DictKey_WptName_28"] = "",
+    ["DictKey_ActionText_41"] = "sochi captured",
+    ["DictKey_ActionRadioText_19"] = "spawn stuff",
+    ["DictKey_ActionText_65"] = "",
+    ["DictKey_WptName_72"] = "",
+    ["DictKey_WptName_38"] = "",
+    ["DictKey_WptName_68"] = "",
+    ["DictKey_UnitName_57"] = "Pilot #004",
+    ["DictKey_WptName_10"] = "",
+    ["DictKey_WptName_62"] = "",
+    ["DictKey_ActionText_35"] = "--randomspawn\
+function groupRandomSpawn (group_string)\
+  local all_hostiles = {}\
+  local num_hostiles = 0\
+  for groupName, groupData in pairs(mist.DBs.groupsByName) do\
+    if string.find(string.lower(groupName), group_string) and Group.getByName(groupName) then\
+      local someHostiles = mist.Logger:new('all_hostiles', 3)\
+      someHostiles:info(groupName)\
+      table.insert(all_hostiles, groupName)\
+      num_hostiles = num_hostiles + 1\
+    end\
+  end\
+  local idx = mist.random(num_hostiles)\
+  local chosenHostiles = mist.Logger:new('chosen_hostiles', 3)\
+  chosenHostiles:info(all_hostiles[idx])\
+  return all_hostiles[idx]\
+end",
+    ["DictKey_UnitName_67"] = "Pilot #001",
+    ["DictKey_ActionText_80"] = "-- spawns\
+local actual = groupRandomSpawn('ground_hostiles')\
+mist.respawnInZone(actual, {'sochi_gzone01', 'sochi_gzone02'}, true, 1000)\
+\
+local actual = groupRandomSpawn('ground_hostiles')\
+mist.respawnInZone(actual, {'sochi_gzone01', 'sochi_gzone02'}, true, 1000)\
+\
+local actual = groupRandomSpawn('air_hostiles')\
+mist.respawnInZone(actual, {'sochi_azone01'}, true, 1000)\
+\
+local actual = groupRandomSpawn('friendlies')\
+mist.respawnInZone(actual, {'sochi_friendzone'}, true, 1000)",
+    ["DictKey_WptName_14"] = "",
+    ["DictKey_WptName_75"] = "",
+    ["DictKey_UnitName_78"] = "Unit #006",
+    ["DictKey_WptName_84"] = "",
+    ["DictKey_UnitName_27"] = "Pilot #002",
+    ["DictKey_GroupName_48"] = "air-hostiles02",
+    ["DictKey_UnitName_30"] = "Unit #002",
+    ["DictKey_ActionText_81"] = "sochi trigger activated",
+    ["DictKey_descriptionRedTask_2"] = "",
+    ["DictKey_WptName_46"] = "",
+    ["DictKey_ActionText_39"] = "",
+    ["DictKey_UnitName_53"] = "Pilot #008",
+    ["DictKey_WptName_85"] = "",
+    ["DictKey_UnitName_37"] = "",
+    ["DictKey_GroupName_16"] = "ground_hostiles01",
+    ["DictKey_GroupName_36"] = "friendlies01",
+    ["DictKey_GroupName_26"] = "boatjets",
+    ["DictKey_GroupName_31"] = "ground_hostiles02",
+    ["DictKey_UnitName_17"] = "Unit #001",
+    ["DictKey_ActionText_21"] = "-- spawns\
+local actual = groupRandomSpawn('ground_hostiles')\
+mist.respawnInZone(actual, {'sochi_gzone01', 'sochi_gzone02'}, true, 1000)\
+\
+local actual = groupRandomSpawn('ground_hostiles')\
+mist.respawnInZone(actual, {'sochi_gzone01', 'sochi_gzone02'}, true, 1000)\
+\
+local actual = groupRandomSpawn('air_hostiles')\
+mist.respawnInZone(actual, {'sochi_azone01'}, true, 1000)\
+\
+local actual = groupRandomSpawn('friendlies')\
+mist.respawnInZone(actual, {'sochi_friendzone'}, true, 1000)",
+    ["DictKey_UnitName_77"] = "Unit #005",
+    ["DictKey_descriptionBlueTask_3"] = "",
+    ["DictKey_UnitName_63"] = "Pilot #007",
+    ["DictKey_GroupName_66"] = "groundjets",
+    ["DictKey_ActionComment_40"] = "DictKey_ActionComment_40",
+    ["DictKey_GroupName_59"] = "air_hostiles02",
+    ["DictKey_UnitName_50"] = "Pilot #006",
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_UnitName_71"] = "",
+    ["DictKey_WptName_51"] = "",
+    ["DictKey_WptName_56"] = "",
+    ["DictKey_GroupName_76"] = "ground_hostiles03",
+    ["DictKey_WptName_34"] = "",
+    ["DictKey_WptName_79"] = "",
+} -- end of dictionary
