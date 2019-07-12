@@ -1,0 +1,4 @@
+pyyaml
+pyinstaller
+flake8
+requests
