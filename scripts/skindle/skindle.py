@@ -11,7 +11,7 @@ from yaml import safe_load
 
 
 # program info for help text
-version = '0.1.0'
+version = '0.1.1'
 desc_text = 'DontCamp.com DCS skin package manager version {}'.format(version)
 # CLI arguments
 parser = argparse.ArgumentParser(description=desc_text)
@@ -59,7 +59,7 @@ for key, value in ENV_VARS.items():
 print('''Executing with configuration as follows:
 (NOTE: these values may be overridden using environment variables)\n''')
 for key, value in config.items():
-    print(key,'{}'.format('='), value)
+    print(key, '{}'.format('='), value)
 print('\n')
 
 
@@ -120,7 +120,7 @@ for skin in skin_data['skins']:
                 with open(target, 'wb') as fd:
                     for chunk in r.iter_content(chunk_size=128):
                         fd.write(chunk)
-        except:
+        except requests.exceptions.RequestException:
             print('Cannot download "{name}", skipping.'.format(**skin))
             continue
 
