@@ -64,6 +64,7 @@ following:
    **Request URL**.
 * `type`: The name DCS gives to the subdirectory where skins for this
    particular aircraft live.  Known aircraft types:
+   
    ```
    A-10C
    AJS37
@@ -75,6 +76,7 @@ following:
    MiG-21Bis
    uh-1h
    ```
+   
 * `sub_dir`: The subdirectory inside the skin archive provided by the skin
    author. This setting merely exists to prevent re-installation of skins you
    already have.  If a skin archive contains multiple subdirectories (skins), then
