@@ -72,6 +72,7 @@ following:
    f-14b
    F-5E-3
    FA-18C_hornet
+   ka-50
    M-2000C
    MiG-21Bis
    uh-1h
