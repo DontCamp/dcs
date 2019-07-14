@@ -63,8 +63,18 @@ following:
    As the file downloads, the **Network** tab will reveal the direct download
    **Request URL**.
 * `type`: The name DCS gives to the subdirectory where skins for this
-   particular aircraft live.  These directory names can typically be found in
-   your DCS installation directory at **DCSWorld\Mods\aircraft**
+   particular aircraft live.  Known aircraft types:
+   ```
+   A-10C
+   AJS37
+   AV8BNA
+   f-14b
+   F-5E-3
+   FA-18C_hornet
+   M-2000C
+   MiG-21Bis
+   uh-1h
+   ```
 * `sub_dir`: The subdirectory inside the skin archive provided by the skin
    author. This setting merely exists to prevent re-installation of skins you
    already have.  If a skin archive contains multiple subdirectories (skins), then
