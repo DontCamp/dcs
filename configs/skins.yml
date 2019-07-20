@@ -45,8 +45,13 @@ skins:
     dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/36a/Ace Combat - Federal Erusean Navy VFA-106 Aegir Knights.zip'
     type: f-14b
     sub_dir: 'Ace Combat - Federa Erusean Navy VFA-106 Aegir Knights #2'
-  - name: 'GLG-20 Decoys (DontCamp)'
+  - name: 'GLG-20 Decoys (DontCamp Development Skin)'
     link: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
     dl_url: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
     type: f-14b
     sub_dir: 'GLG-20 Decoys In Development'
+  - name: 'VFA-305 CH'
+    link: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
+    dl_url: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
+    type: f-14b
+    sub_dir: 'VFA-305 CH In Development'
