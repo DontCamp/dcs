@@ -5,8 +5,9 @@
 master is intended to hold scripts and other junk needed for easily distributing stuff in here.
 
 Missions live in orphaned branches in their unzipped form. Create an orphaned branch with
-`git checkout --orphan <branchname>`. Remember to clear out files from other branches after
-creating an orphan branch.
+`git checkout --orphan <branchname> empty-mission-template`. `empty-mission-template` is an 
+empty branch from which to create new mission branches, which prevents you from having to 
+delete stuff from the `master` branch for each new mission you add to the repo.
 
 ## Making a .miz file
 
