@@ -1,5 +1,11 @@
 # DCS Stuff
 
+[Branches](#branches)
+
+[Making a .miz file](#making-a-miz-file)
+
+[Skin package management with skindle](#skin-package-management-with-skindle)
+
 ## Branches
 
 *master* is intended to hold scripts and other junk needed for easily distributing stuff in here.
