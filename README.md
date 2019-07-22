@@ -116,6 +116,7 @@ This is a list of things that the author(s) find fun and unfun after a good amou
 * A reasonable amount of targets for the group flying the mission, such that during a single sortie, all enemies may be destroyed, or alternatively, a static or priority objective that once destroyed, renders all remaining hostiles erased from existence.
 * Static targets larger than the typical vehicle that are often configured in missions.  Large static targets make unguided munitions more fun to use, and vary the usable loadouts that can be carried.
 * Mission objectives with rewards in the form of airfields, fresh jets, munitions, fuel, territory, etc...
+* Multi-role and multi-sensor sorties.  During the course of a given sortie, we should have to employ most of the aircrafts features including air-to-air, air-to-ground, navigation, carrier landing, etc...
 
 ### Unfun
 * Flying the same mission over and over.
