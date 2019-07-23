@@ -91,6 +91,9 @@ following:
    author. This setting merely exists to prevent re-installation of skins you
    already have.  If a skin archive contains multiple subdirectories (skins), then
    listing just one of the subdirectories will be sufficient.
+* `cache_archive`: Optional - set to `false` to disable installing skins from
+   locally cached archive files.  Useful for skins under active development that
+   require continual updates.
 
 ### Details for crazy people
 
