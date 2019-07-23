@@ -1,6 +1,6 @@
 # DCS Stuff
 
-DontCamp.com DCS community maps and tools!
+DontCamp.com DCS community maps and tools, now with a [Wiki](https://github.com/DontCamp/dcs/wiki)!
 
 ## Skin package management with skindle
 
