@@ -11,7 +11,7 @@ from yaml import safe_load
 
 
 # program info for help text
-version = '0.1.1'
+version = '0.2.0'
 desc_text = 'DontCamp.com DCS skin package manager version {}'.format(version)
 # CLI arguments
 parser = argparse.ArgumentParser(description=desc_text)

@@ -50,8 +50,10 @@ skins:
     dl_url: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
     type: f-14b
     sub_dir: 'GLG-20 Decoys In Development'
+    cache_archive: false
   - name: 'VFA-305 CH'
     link: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
     dl_url: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
     type: f-14b
     sub_dir: 'VFA-305 CH In Development'
+    cache_archive: false
