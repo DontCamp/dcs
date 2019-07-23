@@ -112,7 +112,7 @@ for skin in skin_data['skins']:
 
     # check for existing archive file in temp directory, and skip the download
     # if the archive already exists
-    if not os.path.isfile(target) or not skin.get('cache_archive', true):
+    if not os.path.isfile(target) or not skin.get('cache_archive', True):
         print('Downloading skin "{name}" from {dl_url} to temporary '
               'directory {}'.format(TEMP_DIR, **skin))
         try:
