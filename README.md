@@ -15,7 +15,7 @@ pilot who runs it.
   default installation directory at `Program Files\7-Zip`
 * Download the [standalone EXE file](https://github.com/DontCamp/dcs/releases)
   from the releases page.
-* Run skindle.
+* Run `skindle.exe`.
 
 In theory, skindle can be configured to run automatically via Steam when you
 start DCS via skindle's **batch mode**. The following in the Steam launch
