@@ -14,7 +14,7 @@ pilot who runs it.
 * Download the [standalone EXE file](https://github.com/DontCamp/dcs/releases)
   from the releases page.
 * Ensure that you've installed [7-Zip 64-bit](https://7-zip.org/) to the
-  default installation directory at *Program Files\7-Zip*
+  default installation directory at `Program Files\7-Zip`
 * Run skindle.
 
 In theory, skindle can be configured to run automatically via Steam when you
