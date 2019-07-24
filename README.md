@@ -7,7 +7,8 @@ DontCamp.com DCS community maps and tools, now with a [Wiki](https://github.com/
 skindle is a program that allows a community of DCS hotshots to see one
 another's sweet liveries.  Basically, it grabs an agreed-upon list of skins
 that everyone should have, and installs them automatically for each wannabe
-pilot who runs it.
+pilot who runs it.  More info on skindle can be found in the
+[Wiki](https://github.com/DontCamp/dcs/wiki).
 
 ### How to use skindle
 

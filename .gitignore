@@ -1,1 +1,5 @@
 bin/params.sh
+scripts/skindle/__pycache__
+scripts/skindle/build
+scripts/skindle/dist
+scripts/skindle/skindle.spec
