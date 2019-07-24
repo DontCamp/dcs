@@ -2,3 +2,5 @@ pyyaml
 pyinstaller
 flake8
 requests
+beautifulsoup4
+lxml

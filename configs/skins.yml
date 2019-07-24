@@ -1,59 +1,52 @@
 ---
+
+dir_map:
+  F-14 Tomcat: f-14b
+  A-10C Warthog: A-10C
+  AV-8B Night Attack V/STOL: AV8BNA
+  AJS-37 Viggen: AJS37
+  F-5E Tiger: F-5E-3
+  F/A-18C Hornet: FA-18C_hornet
+  Ka-50: ka-50
+  M-2000C: M-2000C
+  MiG-21bis: MiG-21Bis
+  UH-1H Huey: uh-1h
+
 skins:
   - name: 'F-14 VX-9 "Vandy 1" Black Bunny v1.1'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305106/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/f96/VX-9 Vandy 1 (Black Bunny) v1.1.rar'
-    type: f-14b
     sub_dir: 'VX-9 Vandy 1 (Black Bunny)'
   - name: 'F-14B Skoll Blue (Ace Combat)'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305352/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/7ce/F-14B Skoll Blue.rar'
-    type: f-14b
     sub_dir: '67th Skoll Blue'
   - name: 'RetroCat 101 F-14'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305268/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/a2d/RetroCat 101.7z'
-    type: f-14b
     sub_dir: 'RetroCat 101'
   - name: 'F-14B - VF-111 Sundowners 200 "Miss Molly" V2.1'
     link: 'https://www.digitalcombatsimulator.com/en/files/3303892/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/2eb/VF-111 Sundowners 200_V2.1.rar'
-    type: f-14b
     sub_dir: 'VF-111 Sundowners 200'
   - name: 'F-14B(A) Asia Minor USAF H80 [BuNo160378] v.2.1 [4/30/2019]'
     link: 'https://www.digitalcombatsimulator.com/en/files/3304396/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/e46/Asia Minor USAF v.2.1.rar'
-    type: f-14b
     sub_dir: 'Asia Minor USAF'
   - name: 'VF-1 Ferris'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305042/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/ee5/VF-1 Ferris.zip'
-    type: f-14b
     sub_dir: 'VF-1 Ferris'
   - name: 'VF-116 White Knights Black (Fictional)'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305244/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/d76/White Knights Black.zip'
-    type: f-14b
     sub_dir: 'White Knights Airshow'
   - name: 'F-14B - VF-84 Jolly Rogers USS Nimitz 1980'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305094/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/a6d/VF-84_AJ_USS_NIMITZ_1980.rar'
-    type: f-14b
     sub_dir: 'VF-84 Jolly Rogers AJ200 (1980)'
   - name: 'Ace Combat - Federal Erusean Navy VFA-106 "Aegir Knights" F-14B Tomcat'
     link: 'https://www.digitalcombatsimulator.com/en/files/3305409/'
-    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/36a/Ace Combat - Federal Erusean Navy VFA-106 Aegir Knights.zip'
-    type: f-14b
     sub_dir: 'Ace Combat - Federal Erusean Navy VFA-106 Aegir Knights FL'
   - name: 'GLG-20 Decoys (DontCamp Development Skin)'
     link: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
-    dl_url: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
     type: f-14b
     sub_dir: 'GLG-20 Decoys In Development'
     cache_archive: false
   - name: 'VFA-305 CH'
     link: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
-    dl_url: 'https://dst.dev/dcs/liveries/vfa-305-ch.7z'
     type: f-14b
     sub_dir: 'VFA-305 CH In Development'
     cache_archive: false
