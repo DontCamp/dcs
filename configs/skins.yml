@@ -45,6 +45,11 @@ skins:
     dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/36a/Ace Combat - Federal Erusean Navy VFA-106 Aegir Knights.zip'
     type: f-14b
     sub_dir: 'Ace Combat - Federal Erusean Navy VFA-106 Aegir Knights FL'
+  - name: 'Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment "Elektron" F-14B Tomcat'
+    link: 'https://www.digitalcombatsimulator.com/en/files/3305836/'
+    dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/046/Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment Elektron.zip'
+    type: f-14b
+    sub_dir: 'Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment Elektron'
   - name: 'GLG-20 Decoys (DontCamp Development Skin)'
     link: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
     dl_url: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
