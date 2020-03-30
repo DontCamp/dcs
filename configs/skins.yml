@@ -63,8 +63,8 @@ skins:
     sub_dir: 'VFA-305 CH In Development'
     cache_archive: false
   - name: 'DontCamp F-16'
-    link: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCamp.7z'
-    dl_url: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCamp.7z'
+    link: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
+    dl_url: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
     type: F-16C_50
     sub_dir: 'DontCamp'
     cache_archive: false
