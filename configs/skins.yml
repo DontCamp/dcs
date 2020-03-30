@@ -66,8 +66,8 @@ skins:
     type: uh-1h
     sub_dir: 'DontCamp'
   - name: 'DontCamp F-16'
-    link: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
-    dl_url: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
+    link: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
     type: F-16C_50
     sub_dir: 'DontCamp'
     cache_archive: false
