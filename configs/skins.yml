@@ -50,33 +50,25 @@ skins:
     dl_url: 'https://www.digitalcombatsimulator.com/upload/iblock/046/Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment Elektron.zip'
     type: f-14b
     sub_dir: 'Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment Elektron'
-  - name: 'GLG-20 Decoys (DontCamp Development Skin)'
-    link: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
-    dl_url: 'https://dst.dev/dcs/liveries/glg-20-decoys.7z'
-    type: f-14b
-    sub_dir: 'GLG-20 Decoys In Development'
-    cache_archive: false
   - name: 'VFA-305 F-14'
     link: 'https://storage.googleapis.com/dstdev-liveries/f-14b/vfa-305-ch.7z'
     dl_url: 'https://storage.googleapis.com/dstdev-liveries/f-14b/vfa-305-ch.7z'
     type: f-14b
-    sub_dir: 'VFA-305 CH In Development'
-    cache_archive: false
+    sub_dir: 'VFA-305 CH'
+  - name: 'VFA-305 F-18'
+    link: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
+    type: FA-18C_hornet
+    sub_dir: 'VFA-305 DontCamp'
+  - name: 'DontCamp UH-1H'
+    link: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
+    type: uh-1h
+    sub_dir: 'DontCamp'
   - name: 'DontCamp F-16'
     link: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
     dl_url: 'https://storage.cloud.google.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
     type: F-16C_50
     sub_dir: 'DontCamp'
     cache_archive: false
-  - name: 'VFA-305 F-18'
-    link: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
-    dl_url: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
-    type: FA-18C_hornet
-    sub_dir: 'VFA-305 DontCamp In Development'
-    cache_archive: false
-  - name: 'DontCamp UH-1H'
-    link: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
-    dl_url: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
-    type: uh-1h
-    sub_dir: 'DontCamp In Development'
-    cache_archive: false
+    
