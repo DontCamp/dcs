@@ -59,7 +59,7 @@ skins:
     link: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
     dl_url: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
     type: FA-18C_hornet
-    sub_dir: 'VFA-305 DontCamp'
+    sub_dir: 'VFA-305'
   - name: 'DontCamp UH-1H'
     link: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
     dl_url: 'https://storage.googleapis.com/dstdev-liveries/uh-1h/DontCamp.7z'
