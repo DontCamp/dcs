@@ -1,16 +1,16 @@
 options = 
 {
-    ["playerName"] = "Surrexen",
+    ["playerName"] = "New callsign",
     ["miscellaneous"] = 
     {
         ["allow_server_screenshots"] = true,
-        ["headmove"] = true,
-        ["TrackIR_external_views"] = false,
+        ["headmove"] = false,
+        ["TrackIR_external_views"] = true,
         ["f5_nearest_ac"] = true,
         ["f11_free_camera"] = true,
         ["F2_view_effects"] = 0,
         ["f10_awacs"] = true,
-        ["Coordinate_Display"] = "Lat Long Decimal",
+        ["Coordinate_Display"] = "Lat Long",
         ["accidental_failures"] = false,
         ["autologin"] = true,
         ["force_feedback_enabled"] = false,
@@ -22,46 +22,46 @@ options =
     ["difficulty"] = 
     {
         ["geffect"] = "realistic",
-        ["padlock"] = false,
+        ["padlock"] = true,
         ["cockpitStatusBarAllowed"] = false,
-        ["wakeTurbulence"] = true,
+        ["wakeTurbulence"] = false,
         ["map"] = true,
         ["easyRadar"] = false,
         ["fuel"] = false,
         ["miniHUD"] = false,
         ["controlsIndicator"] = true,
-        ["birds"] = 500,
+        ["birds"] = 0,
         ["optionsView"] = "optview_all",
-        ["permitCrash"] = false,
+        ["permitCrash"] = true,
         ["immortal"] = false,
-        ["easyCommunication"] = false,
+        ["easyCommunication"] = true,
         ["cockpitVisualRM"] = false,
         ["easyFlight"] = false,
         ["reports"] = true,
-        ["hideStick"] = false,
-        ["radio"] = false,
+        ["hideStick"] = true,
+        ["radio"] = true,
         ["userMarks"] = true,
         ["unrestrictedSATNAV"] = false,
-        ["units"] = "metric",
+        ["units"] = "imperial",
         ["spectatorExternalViews"] = true,
         ["tips"] = true,
         ["userSnapView"] = true,
         ["RBDAI"] = true,
         ["externalViews"] = true,
         ["iconsTheme"] = "nato",
-        ["avionicsLanguage"] = "native",
+        ["avionicsLanguage"] = "english",
         ["weapons"] = false,
         ["setGlobal"] = true,
-        ["labels"] = 0,
+        ["labels"] = 3,
     }, -- end of ["difficulty"]
     ["VR"] = 
     {
         ["enable"] = false,
         ["box_mouse_cursor"] = false,
         ["pixel_density"] = 1,
-        ["use_mouse"] = false,
+        ["use_mouse"] = true,
         ["interaction_with_grip_only"] = false,
-        ["prefer_built_in_audio"] = false,
+        ["prefer_built_in_audio"] = true,
         ["custom_IPD_enable"] = false,
         ["custom_IPD"] = 63.5,
         ["hand_controllers"] = false,
@@ -69,40 +69,40 @@ options =
     ["graphics"] = 
     {
         ["messagesFontScale"] = 1,
-        ["rainDroplets"] = 1,
-        ["preloadRadius"] = 150000,
-        ["heatBlr"] = 2,
+        ["rainDroplets"] = true,
+        ["preloadRadius"] = 5000,
+        ["heatBlr"] = 0,
         ["anisotropy"] = 4,
-        ["water"] = 2,
+        ["water"] = 1,
         ["motionBlur"] = 0,
-        ["outputGamma"] = 1.5,
-        ["treesVisibility"] = 15000,
-        ["aspect"] = 1.7777777777778,
-        ["textures"] = 2,
-        ["shadows"] = 4,
-        ["MSAA"] = 1,
-        ["SSAA"] = 2,
-        ["height"] = 1080,
-        ["forestDistanceFactor"] = 0.8,
-        ["cockpitGI"] = 1,
-        ["terrainTextures"] = "max",
+        ["outputGamma"] = 2.2,
+        ["treesVisibility"] = 10000,
+        ["aspect"] = 1.7822580645161,
+        ["textures"] = 1,
+        ["shadows"] = 0,
+        ["MSAA"] = 2,
+        ["SSAA"] = 0,
+        ["height"] = 992,
+        ["forestDistanceFactor"] = 0.3,
+        ["cockpitGI"] = 0,
+        ["terrainTextures"] = "min",
         ["multiMonitorSetup"] = "1camera",
-        ["shadowTree"] = true,
-        ["chimneySmokeDensity"] = 1,
-        ["fullScreen"] = true,
+        ["shadowTree"] = false,
+        ["chimneySmokeDensity"] = 0,
+        ["fullScreen"] = false,
         ["DOF"] = 0,
         ["clouds"] = 1,
-        ["flatTerrainShadows"] = 1,
+        ["flatTerrainShadows"] = 2,
         ["useDeferredShading"] = 1,
-        ["width"] = 1920,
+        ["width"] = 1768,
         ["SSLR"] = 0,
         ["effects"] = 3,
         ["SSAO"] = 0,
         ["lights"] = 2,
         ["sync"] = false,
-        ["LensEffects"] = 3,
-        ["visibRange"] = "High",
-        ["clutterMaxDistance"] = 1500,
+        ["LensEffects"] = 0,
+        ["visibRange"] = "Medium",
+        ["clutterMaxDistance"] = 0,
         ["scaleGui"] = 1,
         ["civTraffic"] = "",
     }, -- end of ["graphics"]
@@ -112,115 +112,69 @@ options =
         {
             ["CPLocalList"] = "default",
         }, -- end of ["Su-25T"]
-        ["JF-17"] = 
+        ["F/A-18C"] = 
         {
-            ["PROG04FLBI"] = 1,
-            ["PROG04FLN"] = 3,
-            ["PROG01FLBI"] = 3,
-            ["PROG03CHBI"] = 3,
-            ["PROG04FLI"] = 2,
-            ["PROG01FLR"] = 1,
-            ["MFCD_WMD_TDC"] = 1,
-            ["PROG02CHI"] = 2,
-            ["PROG05FLN"] = 4,
-            ["PROG02CHN"] = 1,
-            ["PROG04CHR"] = 1,
-            ["PROG04CHBI"] = 1,
-            ["PROG02TYPE"] = 0,
-            ["KYBDPITCH"] = 0,
-            ["PROG02FLBI"] = 3,
-            ["PROG02CHR"] = 1,
-            ["CHAFFBINGO"] = 10,
-            ["PROG03TYPE"] = 1,
-            ["PROG03CHR"] = 1,
-            ["PROG01CHI"] = 2,
-            ["PROG05CHI"] = 1,
-            ["DMAPTYPE"] = 0,
-            ["PROG03FLR"] = 1,
-            ["PROG05FLR"] = 3,
-            ["PROG02FLR"] = 1,
-            ["PROG01TYPE"] = 2,
-            ["PROG03FLN"] = 1,
-            ["VOICELOCALE"] = 0,
-            ["PROG03CHN"] = 1,
-            ["PROG05FLI"] = 1,
-            ["PROG03CHI"] = 2,
-            ["PROG03FLBI"] = 3,
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 1,
+            ["hmdEye"] = 2,
             ["CPLocalList"] = "default",
-            ["PROG05CHR"] = 3,
-            ["PROG02FLI"] = 2,
-            ["PROG05CHBI"] = 0,
-            ["FLAREBINGO"] = 10,
-            ["PROG04CHN"] = 3,
-            ["MFCD_TVIR_TDC"] = 1,
-            ["MFCD_RDR_TDC"] = 1,
-            ["PROG01FLI"] = 2,
-            ["PROG04TYPE"] = 2,
-            ["PROG05TYPE"] = 2,
-            ["PROG05FLBI"] = 0,
-            ["HiddenStick"] = false,
-            ["PROG03FLI"] = 2,
-            ["PROG01CHR"] = 1,
-            ["PROG02CHBI"] = 3,
-            ["PROG01CHBI"] = 3,
-            ["MUSICNUM_SLIDER"] = 10,
-            ["TDC_DEADZONE"] = 0.02,
-            ["PROG04FLR"] = 1,
-            ["PROG05CHN"] = 4,
-            ["MFCD_DLPOD_TDC"] = 1,
-            ["PROG02FLN"] = 1,
-            ["PROG04CHI"] = 2,
-            ["HUD_RDR_TDC"] = 1,
-            ["PROG01CHN"] = 1,
-            ["PROG01FLN"] = 1,
-        }, -- end of ["JF-17"]
-        ["SpitfireLFMkIX"] = 
+            ["F18RealisticTDC"] = true,
+            ["mfdReflections"] = 1,
+        }, -- end of ["F/A-18C"]
+        ["Tacview"] = 
         {
-            ["assistance"] = 0,
-            ["aileronTrim"] = 0,
-            ["CPLocalList"] = "default",
-            ["autoRudder"] = false,
-        }, -- end of ["SpitfireLFMkIX"]
+            ["tacviewProfilingPeriod"] = 600,
+            ["tacviewHostTelemetryPassword"] = "",
+            ["tacviewRemoteControlPort"] = "42675",
+            ["tacviewDataRecordingEnabled"] = true,
+            ["tacviewTerrainExport"] = 0,
+            ["tacviewRecordClientsSessionsEnabled"] = true,
+            ["tacviewPlaybackDelay"] = 600,
+            ["tacviewRealTimeTelemetryPort"] = "42674",
+            ["tacviewBookmarkShortcut"] = 0,
+            ["tacviewCompressionLevel"] = 1,
+            ["tacviewDebugModeEnabled"] = false,
+            ["tacviewClientTelemetryPassword"] = "",
+            ["tacviewRemoteControlPassword"] = "",
+        }, -- end of ["Tacview"]
         ["AV8BNA"] = 
         {
             ["CPLocalList"] = "default",
-            ["INS_Alignment"] = 1,
-            ["INS_GYROHasNAV"] = false,
+            ["INS_Alignment"] = 2,
+            ["INS_GYROHasNAV"] = true,
             ["MPCD_EXPORT"] = false,
         }, -- end of ["AV8BNA"]
         ["Bf-109K-4"] = 
         {
             ["cameraOrigin"] = 0,
             ["aileronTrim"] = 0,
-            ["assistance"] = 0,
+            ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["rudderTrim"] = 0,
             ["autoRudder"] = false,
         }, -- end of ["Bf-109K-4"]
         ["TF-51D"] = 
         {
-            ["assistance"] = 0,
+            ["assistance"] = 100,
             ["CPLocalList"] = "default",
             ["autoRudder"] = false,
         }, -- end of ["TF-51D"]
-        ["CaptoGlove"] = 
+        ["M-2000C"] = 
         {
-            ["enable"] = false,
-            ["armBending"] = 60,
-            ["mouseClickSrc"] = 0,
-        }, -- end of ["CaptoGlove"]
-        ["FW-190D9"] = 
+            ["UNI_ALIGNED"] = true,
+            ["CPLocalList"] = "English Clearer Brightest",
+            ["AOA_SHOWINHUD"] = false,
+            ["UNI_NODRIFT"] = true,
+        }, -- end of ["M-2000C"]
+        ["F-16C"] = 
         {
-            ["assistance"] = 0,
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 1,
+            ["hmdEye"] = 2,
             ["CPLocalList"] = "default",
-            ["autoRudder"] = false,
-        }, -- end of ["FW-190D9"]
-        ["FW-190A8"] = 
-        {
-            ["assistance"] = 0,
-            ["CPLocalList"] = "default",
-            ["autoRudder"] = false,
-        }, -- end of ["FW-190A8"]
+            ["canopyTint"] = 1,
+            ["mfdReflections"] = 1,
+        }, -- end of ["F-16C"]
         ["FC3"] = 
         {
             ["CPLocalList_Su-25"] = "default",
@@ -233,89 +187,55 @@ options =
             ["CPLocalList_MiG-29G"] = "default",
             ["CPLocalList_F-15C"] = "default",
         }, -- end of ["FC3"]
-        ["AJS37"] = 
+        ["FW-190D9"] = 
         {
+            ["assistance"] = 100,
             ["CPLocalList"] = "default",
-        }, -- end of ["AJS37"]
-        ["M-2000C"] = 
-        {
-            ["UNI_ALIGNED"] = false,
-            ["CPLocalList"] = "default",
-            ["AOA_SHOWINHUD"] = false,
-            ["UNI_NODRIFT"] = false,
-        }, -- end of ["M-2000C"]
-        ["CA"] = 
-        {
-            ["kompass_options"] = 1,
-            ["ground_target_info"] = true,
-            ["ground_aim_helper"] = true,
-            ["ground_platform_shake"] = true,
-            ["ground_automatic"] = true,
-        }, -- end of ["CA"]
-        ["F-16C"] = 
-        {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 0,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "default",
-            ["canopyTint"] = 0,
-            ["mfdReflections"] = 0,
-        }, -- end of ["F-16C"]
-        ["Ka-50"] = 
-        {
-            ["Ka50TrimmingMethod"] = 0,
-            ["CPLocalList"] = "default",
-            ["Ka50RudderTrimmer"] = true,
-            ["helmetCircleDisplacement"] = 11,
-        }, -- end of ["Ka-50"]
+            ["autoRudder"] = true,
+        }, -- end of ["FW-190D9"]
         ["P-51D"] = 
         {
-            ["assistance"] = 0,
-            ["autoRudder"] = false,
+            ["assistance"] = 100,
+            ["autoRudder"] = true,
             ["CPLocalList_P51D25NA"] = "default",
             ["CPLocalList_P51D30NA"] = "default",
         }, -- end of ["P-51D"]
-        ["I-16"] = 
+        ["UH-1H"] = 
         {
-            ["assistance"] = 0,
-            ["autoRudder"] = false,
-        }, -- end of ["I-16"]
+            ["UHRudderTrimmer"] = true,
+            ["autoPilot"] = true,
+            ["UH1HCockpitShake"] = 50,
+            ["CPLocalList"] = "default",
+            ["weapTooltips"] = true,
+            ["UHTrimmingMethod"] = 0,
+        }, -- end of ["UH-1H"]
+        ["MiG-21Bis"] = 
+        {
+            ["Pitot"] = true,
+            ["Engine"] = true,
+            ["Experimental"] = false,
+            ["Shake"] = 100,
+            ["CPLocalList"] = "English - Metric",
+            ["Reticle"] = false,
+            ["Freeze"] = false,
+        }, -- end of ["MiG-21Bis"]
+        ["CaptoGlove"] = 
+        {
+            ["enable"] = false,
+            ["armBending"] = 60,
+            ["mouseClickSrc"] = 0,
+        }, -- end of ["CaptoGlove"]
+        ["F-5E-3"] = 
+        {
+            ["JoystickMode"] = 0,
+            ["SightCamera"] = 2,
+            ["CPLocalList"] = "default",
+            ["aiHelper"] = true,
+        }, -- end of ["F-5E-3"]
         ["A-10C"] = 
         {
             ["CPLocalList"] = "default",
         }, -- end of ["A-10C"]
-        ["MiG-21Bis"] = 
-        {
-            ["Pitot"] = false,
-            ["Engine"] = false,
-            ["Experimental"] = true,
-            ["Shake"] = 100,
-            ["CPLocalList"] = "default",
-            ["Reticle"] = true,
-            ["Freeze"] = false,
-        }, -- end of ["MiG-21Bis"]
-        ["F-86F"] = 
-        {
-            ["landSeatAdjustF86"] = false,
-            ["aiHelper"] = false,
-            ["CPLocalList"] = "default",
-            ["NoseWheelSteeringSimpleBehaviourF86"] = false,
-            ["gunCamera"] = 0,
-        }, -- end of ["F-86F"]
-        ["F-5E-3"] = 
-        {
-            ["JoystickMode"] = 0,
-            ["SightCamera"] = 0,
-            ["CPLocalList"] = "default",
-            ["aiHelper"] = false,
-        }, -- end of ["F-5E-3"]
-        ["MiG-15bis"] = 
-        {
-            ["autoLeanToAimMiG15"] = false,
-            ["CPLocalList"] = "default",
-            ["gunCamera"] = 0,
-            ["aiHelper"] = false,
-        }, -- end of ["MiG-15bis"]
         ["F-14B"] = 
         {
             ["JESTER_HeadMenu"] = true,
@@ -323,9 +243,9 @@ options =
             ["JESTER_LandingCallouts"] = true,
             ["JESTER_SwitchToPSTT"] = false,
             ["CPLocalList"] = "default",
-            ["TID_A2G"] = false,
+            ["TID_A2G"] = true,
             ["WEAP_OFF_GUN"] = false,
-            ["JESTER_Camera"] = true,
+            ["JESTER_Camera"] = false,
             ["RadioMenuPttOptions"] = 0,
         }, -- end of ["F-14B"]
         ["Mi-8MTV2"] = 
@@ -334,51 +254,56 @@ options =
             ["Mi8RudderTrimmer"] = true,
             ["Mi8AutopilotAdjustment"] = true,
             ["gunCamera"] = 0,
-            ["Mi8CockpitShake"] = 50,
+            ["Mi8CockpitShake"] = 10,
             ["controlHelperMi8"] = false,
-            ["CPLocalList"] = "default",
+            ["CPLocalList"] = "english",
             ["Mi8FOV"] = 120,
         }, -- end of ["Mi-8MTV2"]
-        ["UH-1H"] = 
+        ["SA342"] = 
         {
-            ["UHRudderTrimmer"] = true,
-            ["autoPilot"] = true,
-            ["UH1HCockpitShake"] = 50,
-            ["CPLocalList"] = "default",
-            ["weapTooltips"] = false,
-            ["UHTrimmingMethod"] = 0,
-        }, -- end of ["UH-1H"]
-        ["F/A-18C"] = 
+            ["StickRollCurve"] = 0,
+            ["VibrationRate"] = 0,
+            ["PreloadWaypoints"] = true,
+            ["CPLocalList"] = "English",
+            ["EngineBreak"] = true,
+            ["EasierControls"] = false,
+            ["RudderTrim"] = true,
+            ["MiniStick"] = false,
+            ["StickPitchCurve"] = 0,
+            ["CPLocalListMG"] = "English",
+            ["CPLocalListL"] = "English",
+            ["ControlsDisplayLocation"] = 0,
+            ["CPLocalListM"] = "English",
+        }, -- end of ["SA342"]
+        ["Ka-50"] = 
         {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 0,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "default",
-            ["F18RealisticTDC"] = true,
-            ["mfdReflections"] = 0,
-        }, -- end of ["F/A-18C"]
+            ["Ka50TrimmingMethod"] = 1,
+            ["CPLocalList"] = "english",
+            ["Ka50RudderTrimmer"] = false,
+            ["helmetCircleDisplacement"] = 11,
+        }, -- end of ["Ka-50"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
     {
         ["main_output"] = "",
-        ["volume"] = 35,
+        ["volume"] = 51,
         ["headphones_on_external_views"] = true,
         ["subtitles"] = true,
-        ["world"] = 100,
+        ["world"] = 65,
         ["hear_in_helmet"] = false,
         ["radioSpeech"] = true,
         ["hp_output"] = "",
-        ["cockpit"] = 100,
-        ["voice_chat_output"] = "0:{0.0.0.00000000}.{8004bbe0-5c58-4f37-89c3-f6d0393ae546}",
+        ["cockpit"] = 65,
+        ["voice_chat_output"] = "0:{0.0.0.00000000}.{7b2fd0dd-59be-467e-9411-7d9004c19a0b}",
         ["voice_chat"] = false,
         ["microphone_use"] = 2,
         ["GBreathEffect"] = true,
-        ["switches"] = 100,
+        ["switches"] = 300,
         ["play_audio_while_minimized"] = false,
         ["headphones"] = 100,
-        ["music"] = 50,
-        ["voice_chat_input"] = "0:{0.0.1.00000000}.{3a29b68a-c1a2-4922-a577-11bd46ea5020}",
+        ["music"] = 0,
+        ["voice_chat_input"] = "0:{0.0.1.00000000}.{7eda12a8-371d-4478-a677-b7e5ecaa0326}",
         ["gui"] = 100,
     }, -- end of ["sound"]
     ["views"] = 
@@ -387,7 +312,7 @@ options =
         {
             ["mirrors"] = false,
             ["reflections"] = false,
-            ["avionics"] = 1,
+            ["avionics"] = 3,
         }, -- end of ["cockpit"]
     }, -- end of ["views"]
 } -- end of options
