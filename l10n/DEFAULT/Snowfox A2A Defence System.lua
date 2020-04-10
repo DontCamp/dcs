@@ -209,27 +209,27 @@ function SEF_REDSQUADRONSMULTIPLAYER()
 
 	--////CAP Squadrons
 	REDA2ADispatcher:SetSquadron( "Alpha", AIRBASE.PersianGulf.Bandar_Lengeh, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
-	REDA2ADispatcher:SetSquadron( "Beta", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
+	-- REDA2ADispatcher:SetSquadron( "Beta", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
 	REDA2ADispatcher:SetSquadron( "Gamma", AIRBASE.PersianGulf.Havadarya, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
 	REDA2ADispatcher:SetSquadron( "Delta", AIRBASE.PersianGulf.Bandar_Abbas_Intl, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
 	REDA2ADispatcher:SetSquadron( "Epsilon", AIRBASE.PersianGulf.Bandar_e_Jask_airfield, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
-	REDA2ADispatcher:SetSquadron( "Tau", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33", "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
+	-- REDA2ADispatcher:SetSquadron( "Tau", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33", "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
 
 	--////SQUADRON OVERHEAD (1.0-1.5)
 	REDA2ADispatcher:SetSquadronOverhead( "Alpha", 1.0)
-	REDA2ADispatcher:SetSquadronOverhead( "Beta", 1.0)
+	-- REDA2ADispatcher:SetSquadronOverhead( "Beta", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Gamma", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Delta", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Epsilon", 1.0)
-	REDA2ADispatcher:SetSquadronOverhead( "Tau", 1.0)
+	-- REDA2ADispatcher:SetSquadronOverhead( "Tau", 1.0)
 
 	--////SQUADRON GROUPING (Number of planes to be launched)
 	REDA2ADispatcher:SetSquadronGrouping( "Alpha", 2 )
-	REDA2ADispatcher:SetSquadronGrouping( "Beta", 2 )
+	-- REDA2ADispatcher:SetSquadronGrouping( "Beta", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Gamma", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Delta", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Epsilon", 2 )
-	REDA2ADispatcher:SetSquadronGrouping( "Tau", 2 )
+	-- REDA2ADispatcher:SetSquadronGrouping( "Tau", 2 )
 
 	--////SQUADRON TAKEOFF METHOD
 	--REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Alpha" )
@@ -247,19 +247,19 @@ function SEF_REDSQUADRONSMULTIPLAYER()
 	--REDA2ADispatcher:SetSquadronTakeoffFromRunway( "Tau" )
 
 	REDA2ADispatcher:SetSquadronTakeoffInAir( "Alpha" )
-	REDA2ADispatcher:SetSquadronTakeoffInAir( "Beta" )
+	-- REDA2ADispatcher:SetSquadronTakeoffInAir( "Beta" )
 	REDA2ADispatcher:SetSquadronTakeoffInAir( "Gamma" )
 	REDA2ADispatcher:SetSquadronTakeoffInAir( "Delta" )
 	REDA2ADispatcher:SetSquadronTakeoffInAir( "Epsilon" )
-	REDA2ADispatcher:SetSquadronTakeoffInAir( "Tau" )
+	-- REDA2ADispatcher:SetSquadronTakeoffInAir( "Tau" )
 
 	--////SQUADRON LANDING METHOD
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Alpha" )
-	REDA2ADispatcher:SetSquadronLandingAtRunway( "Beta" )
+	-- REDA2ADispatcher:SetSquadronLandingAtRunway( "Beta" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Gamma" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Delta" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Epsilon" )
-	REDA2ADispatcher:SetSquadronLandingAtRunway( "Tau" )
+	-- REDA2ADispatcher:SetSquadronLandingAtRunway( "Tau" )
 
 	--////RED CAP SQUADRON EXECUTION
 	--////function AI_A2A_DISPATCHER:SetSquadronCap( SquadronName, Zone, FloorAltitude, CeilingAltitude, PatrolMinSpeed, PatrolMaxSpeed, EngageMinSpeed, EngageMaxSpeed, AltType )
@@ -267,25 +267,25 @@ function SEF_REDSQUADRONSMULTIPLAYER()
 
 	--////CAP ZONES
 	CAPZoneRed1 = ZONE:New("CAP Zone RED 1")
-	CAPZoneRed2 = ZONE:New("CAP Zone RED 2")
+	-- CAPZoneRed2 = ZONE:New("CAP Zone RED 2")
 	CAPZoneRed3 = ZONE:New("CAP Zone RED 3")
 	CAPZoneRed4 = ZONE:New("CAP Zone RED 4")
 	CAPZoneRed5 = ZONE:New("CAP Zone RED 5")
-	CAPZoneRed6 = ZONE_POLYGON:New( "CAP Zone RED 6", GROUP:FindByName( "CAP Zone RED 6" ) )
+	-- CAPZoneRed6 = ZONE_POLYGON:New( "CAP Zone RED 6", GROUP:FindByName( "CAP Zone RED 6" ) )
 
 	--////RED CAP SQUADRON EXECUTION
 	REDA2ADispatcher:SetSquadronCap( "Alpha", CAPZoneRed1, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Alpha", 1, 3600, 3600, 1 )
-	REDA2ADispatcher:SetSquadronCap( "Beta", CAPZoneRed2, 2500, 11000, 750, 900, 800, 1200, "BARO" )
-	REDA2ADispatcher:SetSquadronCapInterval( "Beta", 1, 3600, 3600, 1 )
+	-- REDA2ADispatcher:SetSquadronCap( "Beta", CAPZoneRed2, 2500, 11000, 750, 900, 800, 1200, "BARO" )
+	-- REDA2ADispatcher:SetSquadronCapInterval( "Beta", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Gamma", CAPZoneRed3, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Gamma", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Delta", CAPZoneRed4, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Delta", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Epsilon", CAPZoneRed5, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Epsilon", 1, 3600, 3600, 1 )
-	REDA2ADispatcher:SetSquadronCap( "Tau", CAPZoneRed6, 2500, 11000, 750, 900, 800, 1200, "BARO" )
-	REDA2ADispatcher:SetSquadronCapInterval( "Tau", 1, 3600, 3600, 1 )		
+	-- REDA2ADispatcher:SetSquadronCap( "Tau", CAPZoneRed6, 2500, 11000, 750, 900, 800, 1200, "BARO" )
+	-- REDA2ADispatcher:SetSquadronCapInterval( "Tau", 1, 3600, 3600, 1 )		
 end
 
 function SEF_REDSQUADRONSSINGLEPLAYER()
@@ -351,37 +351,37 @@ function SEF_REDSQUADRONSSINGLEPLAYER()
 
 	--////CAP SQUADRONS CONFIGURATION
 	REDA2ADispatcher:SetSquadron( "Alpha", AIRBASE.PersianGulf.Bandar_Lengeh, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
-	REDA2ADispatcher:SetSquadron( "Beta", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
+	-- REDA2ADispatcher:SetSquadron( "Beta", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
 	REDA2ADispatcher:SetSquadron( "Gamma", AIRBASE.PersianGulf.Havadarya, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
 	REDA2ADispatcher:SetSquadron( "Delta", AIRBASE.PersianGulf.Bandar_Abbas_Intl, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33" } )
 	REDA2ADispatcher:SetSquadron( "Epsilon", AIRBASE.PersianGulf.Bandar_e_Jask_airfield, { "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
-	REDA2ADispatcher:SetSquadron( "Tau", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33", "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
+	-- REDA2ADispatcher:SetSquadron( "Tau", AIRBASE.PersianGulf.Lar_Airbase, { "SQ RUS MiG-21Bis", "SQ RUS MiG-29A", "SQ RUS MiG-29S", "SQ RUS MiG-23MLD", "SQ RUS MiG-25PD", "SQ RUS MiG-31", "SQ RUS Su-27", "SQ RUS Su-30", "SQ RUS Su-33", "SQ IRN F-4E", "SQ IRN F-5E-3", "SQ IRN MiG-21Bis", "SQ IRN MiG-29A" } )
 
 	--////SQUADRON OVERHEAD (1.0-1.5)
 
 	REDA2ADispatcher:SetSquadronOverhead( "Alpha", 1.0)
-	REDA2ADispatcher:SetSquadronOverhead( "Beta", 1.0)
+	-- REDA2ADispatcher:SetSquadronOverhead( "Beta", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Gamma", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Delta", 1.0)
 	REDA2ADispatcher:SetSquadronOverhead( "Epsilon", 1.0)
-	REDA2ADispatcher:SetSquadronOverhead( "Tau", 1.0)
+	-- REDA2ADispatcher:SetSquadronOverhead( "Tau", 1.0)
 
 	--////SQUADRON GROUPING (Number of planes to be launched)
 
 	REDA2ADispatcher:SetSquadronGrouping( "Alpha", 2 )
-	REDA2ADispatcher:SetSquadronGrouping( "Beta", 2 )
+	-- REDA2ADispatcher:SetSquadronGrouping( "Beta", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Gamma", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Delta", 2 )
 	REDA2ADispatcher:SetSquadronGrouping( "Epsilon", 2 )
-	REDA2ADispatcher:SetSquadronGrouping( "Tau", 2 )
+	-- REDA2ADispatcher:SetSquadronGrouping( "Tau", 2 )
 
 	--////SQUADRON TAKEOFF METHOD
 	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Alpha" )
-	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Beta" )
+	-- REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Beta" )
 	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Gamma" )
 	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Delta" )
 	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Epsilon" )
-	REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Tau" )
+	-- REDA2ADispatcher:SetSquadronTakeoffFromParkingHot( "Tau" )
 
 	--REDA2ADispatcher:SetSquadronTakeoffFromRunway( "Alpha" )
 	--REDA2ADispatcher:SetSquadronTakeoffFromRunway( "Beta" )
@@ -399,11 +399,11 @@ function SEF_REDSQUADRONSSINGLEPLAYER()
 
 	--////SQUADRON LANDING METHOD
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Alpha" )
-	REDA2ADispatcher:SetSquadronLandingAtRunway( "Beta" )
+	-- REDA2ADispatcher:SetSquadronLandingAtRunway( "Beta" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Gamma" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Delta" )
 	REDA2ADispatcher:SetSquadronLandingAtRunway( "Epsilon" )
-	REDA2ADispatcher:SetSquadronLandingAtRunway( "Tau" )
+	-- REDA2ADispatcher:SetSquadronLandingAtRunway( "Tau" )
 
 	--////RED CAP SQUADRON EXECUTION
 	--////function AI_A2A_DISPATCHER:SetSquadronCap( SquadronName, Zone, FloorAltitude, CeilingAltitude, PatrolMinSpeed, PatrolMaxSpeed, EngageMinSpeed, EngageMaxSpeed, AltType )
@@ -411,25 +411,25 @@ function SEF_REDSQUADRONSSINGLEPLAYER()
 
 	--////CAP ZONES
 	CAPZoneRed1 = ZONE:New("CAP Zone RED 1")
-	CAPZoneRed2 = ZONE:New("CAP Zone RED 2")
+	-- CAPZoneRed2 = ZONE:New("CAP Zone RED 2")
 	CAPZoneRed3 = ZONE:New("CAP Zone RED 3")
 	CAPZoneRed4 = ZONE:New("CAP Zone RED 4")
 	CAPZoneRed5 = ZONE:New("CAP Zone RED 5")
-	CAPZoneRed6 = ZONE_POLYGON:New( "CAP Zone RED 6", GROUP:FindByName( "CAP Zone RED 6" ) )
+	-- CAPZoneRed6 = ZONE_POLYGON:New( "CAP Zone RED 6", GROUP:FindByName( "CAP Zone RED 6" ) )
 
 	--////RED CAP SQUADRON EXECUTION
 	REDA2ADispatcher:SetSquadronCap( "Alpha", CAPZoneRed1, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Alpha", 1, 3600, 3600, 1 )
-	REDA2ADispatcher:SetSquadronCap( "Beta", CAPZoneRed2, 2500, 11000, 750, 900, 800, 1200, "BARO" )
-	REDA2ADispatcher:SetSquadronCapInterval( "Beta", 1, 3600, 3600, 1 )
+	-- REDA2ADispatcher:SetSquadronCap( "Beta", CAPZoneRed2, 2500, 11000, 750, 900, 800, 1200, "BARO" )
+	-- REDA2ADispatcher:SetSquadronCapInterval( "Beta", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Gamma", CAPZoneRed3, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Gamma", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Delta", CAPZoneRed4, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Delta", 1, 3600, 3600, 1 )
 	REDA2ADispatcher:SetSquadronCap( "Epsilon", CAPZoneRed5, 1000, 11000, 750, 900, 800, 1200, "BARO" )
 	REDA2ADispatcher:SetSquadronCapInterval( "Epsilon", 1, 3600, 3600, 1 )
-	REDA2ADispatcher:SetSquadronCap( "Tau", CAPZoneRed6, 2500, 11000, 750, 900, 800, 1200, "BARO" )
-	REDA2ADispatcher:SetSquadronCapInterval( "Tau", 1, 3600, 3600, 1 )	
+	-- REDA2ADispatcher:SetSquadronCap( "Tau", CAPZoneRed6, 2500, 11000, 750, 900, 800, 1200, "BARO" )
+	-- REDA2ADispatcher:SetSquadronCapInterval( "Tau", 1, 3600, 3600, 1 )	
 end
 
 function SEF_CleanUpAirports()
