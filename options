@@ -128,8 +128,8 @@ options =
             ["tacviewRemoteControlPort"] = "42675",
             ["tacviewDataRecordingEnabled"] = true,
             ["tacviewTerrainExport"] = 0,
-            ["tacviewRecordClientsSessionsEnabled"] = true,
-            ["tacviewPlaybackDelay"] = 600,
+            ["tacviewRecordClientsSessionsEnabled"] = false,
+            ["tacviewPlaybackDelay"] = 0,
             ["tacviewRealTimeTelemetryPort"] = "42674",
             ["tacviewBookmarkShortcut"] = 0,
             ["tacviewCompressionLevel"] = 1,
@@ -144,15 +144,6 @@ options =
             ["INS_GYROHasNAV"] = true,
             ["MPCD_EXPORT"] = false,
         }, -- end of ["AV8BNA"]
-        ["Bf-109K-4"] = 
-        {
-            ["cameraOrigin"] = 0,
-            ["aileronTrim"] = 0,
-            ["assistance"] = 100,
-            ["CPLocalList"] = "default",
-            ["rudderTrim"] = 0,
-            ["autoRudder"] = false,
-        }, -- end of ["Bf-109K-4"]
         ["TF-51D"] = 
         {
             ["assistance"] = 100,
@@ -166,15 +157,10 @@ options =
             ["AOA_SHOWINHUD"] = false,
             ["UNI_NODRIFT"] = true,
         }, -- end of ["M-2000C"]
-        ["F-16C"] = 
+        ["A-10C"] = 
         {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 1,
-            ["hmdEye"] = 2,
             ["CPLocalList"] = "default",
-            ["canopyTint"] = 1,
-            ["mfdReflections"] = 1,
-        }, -- end of ["F-16C"]
+        }, -- end of ["A-10C"]
         ["FC3"] = 
         {
             ["CPLocalList_Su-25"] = "default",
@@ -219,12 +205,13 @@ options =
             ["Reticle"] = false,
             ["Freeze"] = false,
         }, -- end of ["MiG-21Bis"]
-        ["CaptoGlove"] = 
+        ["Ka-50"] = 
         {
-            ["enable"] = false,
-            ["armBending"] = 60,
-            ["mouseClickSrc"] = 0,
-        }, -- end of ["CaptoGlove"]
+            ["Ka50TrimmingMethod"] = 1,
+            ["CPLocalList"] = "english",
+            ["Ka50RudderTrimmer"] = false,
+            ["helmetCircleDisplacement"] = 11,
+        }, -- end of ["Ka-50"]
         ["F-5E-3"] = 
         {
             ["JoystickMode"] = 0,
@@ -232,10 +219,12 @@ options =
             ["CPLocalList"] = "default",
             ["aiHelper"] = true,
         }, -- end of ["F-5E-3"]
-        ["A-10C"] = 
+        ["CaptoGlove"] = 
         {
-            ["CPLocalList"] = "default",
-        }, -- end of ["A-10C"]
+            ["enable"] = false,
+            ["armBending"] = 60,
+            ["mouseClickSrc"] = 0,
+        }, -- end of ["CaptoGlove"]
         ["F-14B"] = 
         {
             ["JESTER_HeadMenu"] = true,
@@ -275,13 +264,15 @@ options =
             ["ControlsDisplayLocation"] = 0,
             ["CPLocalListM"] = "English",
         }, -- end of ["SA342"]
-        ["Ka-50"] = 
+        ["F-16C"] = 
         {
-            ["Ka50TrimmingMethod"] = 1,
-            ["CPLocalList"] = "english",
-            ["Ka50RudderTrimmer"] = false,
-            ["helmetCircleDisplacement"] = 11,
-        }, -- end of ["Ka-50"]
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 1,
+            ["hmdEye"] = 2,
+            ["CPLocalList"] = "default",
+            ["canopyTint"] = 1,
+            ["mfdReflections"] = 1,
+        }, -- end of ["F-16C"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
@@ -295,7 +286,7 @@ options =
         ["radioSpeech"] = true,
         ["hp_output"] = "",
         ["cockpit"] = 65,
-        ["voice_chat_output"] = "0:{0.0.0.00000000}.{7b2fd0dd-59be-467e-9411-7d9004c19a0b}",
+        ["voice_chat_output"] = "0:{0.0.0.00000000}.{d37a3900-c749-4778-b3cf-34db1bf80b0c}",
         ["voice_chat"] = false,
         ["microphone_use"] = 2,
         ["GBreathEffect"] = true,
@@ -303,7 +294,7 @@ options =
         ["play_audio_while_minimized"] = false,
         ["headphones"] = 100,
         ["music"] = 0,
-        ["voice_chat_input"] = "0:{0.0.1.00000000}.{7eda12a8-371d-4478-a677-b7e5ecaa0326}",
+        ["voice_chat_input"] = "0:{0.0.1.00000000}.{20078181-d643-44c3-b723-de172c1feb2b}",
         ["gui"] = 100,
     }, -- end of ["sound"]
     ["views"] = 

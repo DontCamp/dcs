@@ -78,9 +78,15 @@ function SET_DEATHWATCH:OnEventCrash(EventData)
 		trigger.action.outText("A " .. CrashedUnitType .. " Has Been Destroyed!",15)
 		local RandomAAKillSound = math.random(1,6)
 		trigger.action.outSound('AA Kill ' .. RandomAAKillSound .. '.ogg')				
-	elseif ( CrashedUnitCoalition == 2 ) then 											-- Allied Plane Down
+	elseif ( CrashedUnitCoalition == 2 and CrashedUnitType ~= 'F-14B' ) then 		-- Allied Plane Down - non-f-14
 		trigger.action.outText("A " .. CrashedUnitType .. " Has Been Destroyed!",15)
 		timer.scheduleFunction(FriendlyDownSound, {}, timer.getTime() + 1)		
+	elseif ( CrashedUnitCoalition == 2 and CrashedUnitType == 'F-14B' and CrashedUnitPlaneGroup ~= 'CVN-74 John C. Stennis - F-14B' and CrashedUnitPlaneGroup ~= 'Sharjah Intl - F-14B' ) then 		-- Allied Plane Down - CAP f-14
+		trigger.action.outText("A " .. CrashedUnitType .. " Has Been Destroyed!",15)
+		timer.scheduleFunction(FriendlyDownSound, {}, timer.getTime() + 1)		
+	elseif ( CrashedUnitCoalition == 2 and CrashedUnitType == 'F-14B' ) then 		-- Allied Plane Down - player f-14
+		trigger.action.outText("A " .. CrashedUnitType .. " Has Been Destroyed!",15)
+		trigger.action.outSound('topgun-death.ogg')	
 		
 		--Respawn AWACS and Tankers
 		if string.find(CrashedUnitPlaneGroup, "RT AWACS") then
