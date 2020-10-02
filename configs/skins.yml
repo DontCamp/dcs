@@ -51,13 +51,23 @@ skins:
     type: f-14b
     sub_dir: 'Ace Combat - Yuktobanian Navy 92nd Seperate Shipborne Fighter Aviation Regiment Elektron'
   - name: 'VFA-305 F-14'
-    link: 'https://storage.googleapis.com/dstdev-liveries/f-14b/vfa-305-ch.7z'
-    dl_url: 'https://storage.googleapis.com/dstdev-liveries/f-14b/vfa-305-ch.7z'
+    link: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-F14-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-F14-011020.7z'
     type: f-14b
     sub_dir: 'VFA-305 CH'
+  - name: 'VFA-305 F-14 - 101'
+    link: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-101-F14-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-101-F14-011020.7z'
+    type: f-14b
+    sub_dir: 'VFA-305 CH - 101'
+  - name: 'VFA-305 F-14 - 102'
+    link: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-102-F14-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/f-14b/VFA-305-102-F14-011020.7z'
+    type: f-14b
+    sub_dir: 'VFA-305 CH - 102'
   - name: 'VFA-305 F-18'
-    link: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
-    dl_url: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305.7z'
+    link: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305-F18-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/FA-18C_hornet/VFA-305-F18-011020.7z'
     type: FA-18C_hornet
     sub_dir: 'VFA-305'
   - name: 'DontCamp UH-1H'
@@ -66,9 +76,13 @@ skins:
     type: uh-1h
     sub_dir: 'DontCamp'
   - name: 'DontCamp F-16'
-    link: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
-    dl_url: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCampF16.7z'
+    link: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCamp-F16C-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/F-16C_50/DontCamp-F16C-011020.7z'
     type: F-16C_50
     sub_dir: 'DontCamp'
-    cache_archive: false
+  - name: 'DontCamp A-10C II'
+    link: 'https://storage.googleapis.com/dstdev-liveries/A-10CII/DontCamp-A10II-011020.7z'
+    dl_url: 'https://storage.googleapis.com/dstdev-liveries/A-10CII/DontCamp-A10II-011020.7z'
+    type: A-10CII
+    sub_dir: 'DontCamp'
     
